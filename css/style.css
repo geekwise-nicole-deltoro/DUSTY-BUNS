@@ -95,24 +95,17 @@ header{
 .dusty{
     margin: 0 auto;
     display: inline-block;
-<<<<<<< HEAD
-    margin-left: 25%;
-=======
-    margin-left:;25%;
->>>>>>> origin/master
+    margin-left: 30%;
     color: white;
 } 
 h1{
      font-family: "Pacifico";
     font-size: 5rem;
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
 }
 h3{
     font-family: "Muli";
-    font-size:40px;
+    font-size:26px;
     letter-spacing: .5rem;
     text-align: center;
    
@@ -188,7 +181,7 @@ h2{
     width: 20%;
     text-align: center;
     float: left;
-        padding: 15px;
+    padding: 15px;
     background-color: #BCCF3D;
 }
 .short{
@@ -280,20 +273,20 @@ hr{
     width: 242px;
 }
 
-<<<<<<< HEAD
 /*social media & contact info*/
 
-.bottom_container{
+.container{
     margin: 0 auto;
     background-color: #fff;
     box-sizing: border-box;
     width: 100%;
     height: 100vh;
+    text-align: center;
 }
 
 h4{
     color: yellow;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .column-left{ 
@@ -313,36 +306,14 @@ h4{
     
 }
 
-
-
-
-
-
-
-
-
-
 /*footer image*/
 
 footer{
-    margin: 0;
-    padding: 0;
-    background-image: url(http://dustybuns.com/wp-content/themes/highgrove/img/bg-footer.jpg);
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 100vh;
+     position: relative;
+    background-image: url("img/bg-footer.jpg");
+    background-size: cover;
+    color: #ffc300;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 45px 0;
 }
-=======
-
-
-/*footer image*/
-footer{
-	margin:0 auto;
-}
-
-.top{
-    margin: 0 auto;
-    width:  100%;
-}
->>>>>>> origin/master
