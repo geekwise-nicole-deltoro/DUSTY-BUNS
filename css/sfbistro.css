@@ -23,10 +23,27 @@ header{
     height: 128px;
 }
 
-section{
-    margin: 0 auto;
+.orange{
+    text-align: center;
     
+}
 
+/*text content*/
+
+.san fran{
+    display: block;
+
+}
+h1{
+    color: #fff;
+    font-family:"Pacifico", serif;
+    text-align: center;
+    
+}
+
+h3{
+    color: #fff;
+    text-align: center;
 }
 
 
@@ -37,6 +54,7 @@ ul {
 	margin:0;
 	padding:0;
 	position: absolute;
+    text-align: center;
 }
 
 /*Create a horizontal list with spacing*/
@@ -66,20 +84,20 @@ li a {
 
 /*Hover state for top level links*/
 li:hover a {
-	background: #19c589;
+	background: #BCCF3D;
 }
 
 /*Style for dropdown links*/
 li:hover ul a {
-	background: #f3f3f3;
-	color: #2f3036;
+	background: #fff;
+	color:  #333;
 	height: 40px;
 	line-height: 40px;
 }
 
 /*Hover state for dropdown links*/
 li:hover ul a:hover {
-	background: #19c589;
+	background: #BCCF3D;
 	color: #fff;
 }
 
@@ -108,10 +126,10 @@ ul li a:hover + .hidden, .hidden:hover {
 
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: sans-serif;
 	text-decoration: none;
-	color: #fff;
-	background: #19c589;
+	color: #000;
+	background: #BCCF3D;
 	text-align: center;
 	padding: 10px 0;
 	display: none;
