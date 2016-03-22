@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" id="google-maps-builder-plugin-styles-css" href="http://dustybuns.com/wp-content/plugins/google-maps-builder/public/assets/css/google-maps-builder.min.css?ver=1.0.3" type="text/css" media="all">
     <link rel="stylesheet" id="google-maps-builder-map-icons-css" href="http://dustybuns.com/wp-content/plugins/google-maps-builder/includes/map-icons/css/map-icons.css?ver=1.0        .3" type="text/css" media="all">
     <link rel="icon" href="http://i.imgur.com/xZmhU4J.png">
@@ -16,34 +17,38 @@
     <title>Dusty Buns | Fresh Local</title>
 </head>
 <body>
-<header_main>
-<!--main navbar-->
+<header>
 
-<div id="top_menu">
-    <ul> 
-        <li><a href="index.html">Home</a></li> 
-    
-    <li><a href="">Menu/Locations</a> 
-        <ul>    
-        <li><a href="sfbistro.html">SF Bistro</a></li> 
-        <li><a href="fresnobistro.html">Fresno Bistro</a></li> 
-        <li><a href="fresnobus.html">Fresno Bus</a></li>
-        </ul> </li> 
-            
-    <li><a href="#">About Us</a>
-    <li><a href="#">Catering</a></li>
-        <ul>
-        <li><a href="#">Catering/Special Events</a><li>
-        <li><a href="#">Fresno lunch box order form</a></li>
-      <li><a href="#">SF lunch box order form</a></li>
-    </ul> 
-    <li><a href="#">Contact Us</a> 
-    <li><a href="#">Careers</a></li>
-    
-        </ul> 
-            </div>
-            </header_main>
-            
+<!--header-->
+<label for="show-menu" class="show-menu">Show Menu</label>
+	<input type="checkbox" id="show-menu" role="button">
+		<ul id="menu">
+		<li><a href="index.html">Home</a></li>
+         <li><a href="aboutus.html">About Us</a></li>
+		<li>
+			<a href="#">Menu/Locations</a>
+			<ul class="hidden">
+				<li><a href="sfbistro.html">SF Bistro</a></li> 
+                <li><a href="fresnobistro.html">Fresno Bistro</a></li> 
+                <li><a href="fresnobus.html">Fresno Bus</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Catering</a>
+			<ul class="hidden">
+				<li><a href="events.html">Catering/Special Events</a><li>
+                <li><a href="fresnoform.html">Fresno lunch box order form</a></li>
+                <li><a href="SFform.html">SF lunch box order form</a></li>
+			</ul>
+		</li>
+		<li><a href="contactus.html">Contact Us</a> 
+        <li><a href="careers.html">Careers</a></li>
+	</ul>
+
+</header>
+<section>
+<a img src="http://i.imgur.com/cMKhg9k.jpg" width="903px" height="373px">SanFran_image</a>
+</section>            
 
 <!--text content-->
 
@@ -60,7 +65,7 @@
 <div id="content">
   
   
-<div id="header">header</div>
+<div id="sub_header">subheader</div>
 content
 </div>
 </div>
