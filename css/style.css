@@ -95,13 +95,20 @@ header{
 .dusty{
     margin: 0 auto;
     display: inline-block;
+<<<<<<< HEAD
     margin-left: 25%;
+=======
+    margin-left:;25%;
+>>>>>>> origin/master
     color: white;
 } 
 h1{
      font-family: "Pacifico";
     font-size: 5rem;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 }
 h3{
     font-family: "Muli";
@@ -273,6 +280,7 @@ hr{
     width: 242px;
 }
 
+<<<<<<< HEAD
 /*social media & contact info*/
 
 .bottom_container{
@@ -325,3 +333,16 @@ footer{
     background-size: 100%;
     height: 100vh;
 }
+=======
+
+
+/*footer image*/
+footer{
+	margin:0 auto;
+}
+
+.top{
+    margin: 0 auto;
+    width:  100%;
+}
+>>>>>>> origin/master
