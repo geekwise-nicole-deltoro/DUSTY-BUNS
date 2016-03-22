@@ -18,9 +18,8 @@ body{
 header{
     margin: 0 auto;
     width: 100%;
-    display: inline-block;
     background-color: #fff;
-    height: 128px;
+    height: 158px;
 }
 
 .orange{
@@ -62,6 +61,7 @@ li {
 	display:inline-block;
     text-align: center;
 	margin-right: 1px;
+    
 }
 
 /*Style for menu links*/
@@ -73,7 +73,7 @@ li a {
 	display:block;
 	min-width:140px;
 	height: 50px;
-	text-align: center;
+    text-align: center;
 	line-height: 50px;
     font-family: "Muli", serif;
     font-weight: 700;
@@ -120,7 +120,7 @@ li ul li a {
 }
 
 /*Display the dropdown on hover*/
-ul li a:hover + .hidden, .hidden:hover {
+ul li a:hover+.hidden, .hidden:hover {
 	display: block;
 }
 
@@ -133,6 +133,7 @@ ul li a:hover + .hidden, .hidden:hover {
 	text-align: center;
 	padding: 10px 0;
 	display: none;
+    
 }
 
 /*Hide checkbox*/
@@ -141,7 +142,8 @@ input[type=checkbox]{
 }
 
 /*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ #menu{
+input[type=checkbox]:checked ~
+    #menu{
     display: block;
 }
 
