@@ -1,108 +1,131 @@
-htm,body{
+html,body{
     margin: 0;
     padding:0;
+    width: 100%;
     height: 100%;
 }
 
-/* nav background */
 body{
     margin: 0;
     padding: 0;
-    background-image: url('http://dustybuns.com/wp-content/uploads/2015/02/sfbistro_copy1.jpg');
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: 100%; 
-    width: 903px;
-    height:373px;
+    width: 100%;
+    height: 100vh;
+
 }
 
-/*main header/navbar*/
-.top_menu
-{
-	margin-top:15px
+
+/* nav background */
+header{
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+    background-color: #fff;
+    height: 128px;
 }
 
-.top_menu ul
-{
-	list-style:none;
-	position:relative;
-	float:left;
+section{
+    margin: 0 auto;
+    
+
+}
+
+
+
+/*Strip the ul of padding and list styling*/
+ul {
+	list-style-type:none;
 	margin:0;
-	padding:0
+	padding:0;
+	position: absolute;
 }
 
-.top_menu ul a
-{
+/*Create a horizontal list with spacing*/
+li {
+	display:inline-block;
+    text-align: center;
+	margin-right: 1px;
+}
+
+/*Style for menu links*/
+
+
+
+
+li a {
 	display:block;
-	color:#000;
-	text-decoration:none;
-	font-weight:700;
-	font-size:12px;
-	line-height:32px;
-	padding:0 15px;
-	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+	min-width:140px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+    font-family: "Muli", serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+	color: #000;
+	text-decoration: none;
 }
 
-.top_menu ul li
-{
-	position:relative;
-	float:left;
-	margin:0;
-	padding:0
+/*Hover state for top level links*/
+li:hover a {
+	background: #19c589;
 }
 
-.top_menu ul li.current-menu-item
-{
-	background:#ddd
+/*Style for dropdown links*/
+li:hover ul a {
+	background: #f3f3f3;
+	color: #2f3036;
+	height: 40px;
+	line-height: 40px;
 }
 
-.top_menu ul li:hover
-{
-	background:#f6f6f6
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+	background: #19c589;
+	color: #fff;
 }
 
-.top_menu ul ul
-{
-	display:none;
-	position:absolute;
-	top:100%;
-	left:0;
-	background:#fff;
-	padding:0
+/*Hide dropdown links until they are needed*/
+li ul {
+	display: none;
 }
 
-.top_menu ul ul li
-{
-	float:none;
-	width:200px
+/*Make dropdown links vertical*/
+li ul li {
+	display: block;
+	float: none;
 }
 
-.top_menu ul ul a{
-	line-height:120%;
-	padding:10px 15px
+/*Prevent text wrapping*/
+li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0 20px;
 }
 
-.top_menu ul ul ul
-{
-	top:0;
-	left:100%
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+	display: block;
 }
 
-
-.top_menu ul li:hover > ul{
-	display:block
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	background: #19c589;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
 }
 
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
 
-
-
-
-
-
-
-
-
-
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
 
 /* san fran text content*/
 
@@ -120,10 +143,6 @@ h1{
 h3{
     color: #fff;
 }
-
-
-
-
 
 
 /*bottom half page*/
@@ -171,4 +190,32 @@ h3{
     position: absolute;
     left: 0px;
     position: fixed;
+}
+
+
+
+
+
+
+
+/*Responsive Styles*/
+
+@media screen and (max-width : 760px){
+	/*Make dropdown links appear inline*/
+	ul {
+		position: static;
+		display: none;
+}
+	/*Create vertical spacing*/
+	li {
+		margin-bottom: 1px;
+}
+	/*Make all menu links full width*/
+	ul li, li a {
+		width: 100%;
+}
+	/*Display 'show menu' link*/
+	.show-menu {
+		display:block;
+	}
 }
