@@ -1,4 +1,4 @@
-htm,body{
+html,body{
     margin: 0;
     padding:0;
 }
@@ -19,7 +19,7 @@ header{
     margin: 0 auto;
     width: 100%;
     text-align: center;
-    display: inline;
+    
 }
 
 #primary_nav_wrap{
@@ -34,7 +34,7 @@ header{
 }
 
 #primary_nav_wrap ul a{
-	display:block;
+    text-align: center;
 	color:#fff;
 	text-decoration:none;
 	font-weight:900;
@@ -66,17 +66,17 @@ header{
 	top:100%;
 	left:0;
 	background:#fff;
-	padding:0
+	padding:0;
 }
 
 #primary_nav_wrap ul ul li{
 	float:none;
-	width:200px
+	width:200px;
 }
 
 #primary_nav_wrap ul ul a{
 	line-height:120%;
-	padding:10px 15px
+	padding:10px 15px;
 }
 
 #primary_nav_wrap ul ul ul{
@@ -94,15 +94,14 @@ header{
 /* text on burger img*/
 .dusty{
     margin: 0 auto;
-    position: relative;
-    bottom: -100px;
+    display: inline-block;
+    margin-left: 25%;
     color: white;
 } 
 h1{
      font-family: "Pacifico";
     font-size: 5rem;
-    text-align: center;
-    margin-right: 
+
 }
 h3{
     font-family: "Muli";
@@ -274,10 +273,55 @@ hr{
     width: 242px;
 }
 
+/*social media & contact info*/
+
+.bottom_container{
+    margin: 0 auto;
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+}
+
+h4{
+    color: yellow;
+    font-size: 24px;
+}
+
+.column-left{ 
+    float: left; 
+    width: 33%; 
+    
+}
+
+.column-right{
+    float: right;
+    width: 33%; 
+    
+}
+.column-center{
+    display: inline-block;
+    width: 33%; 
+    
+}
+
+
+
+
+
+
+
+
+
 
 /*footer image*/
 
-.top{
-    margin: 0 auto;
-    width:  100%;
+footer{
+    margin: 0;
+    padding: 0;
+    background-image: url(http://dustybuns.com/wp-content/themes/highgrove/img/bg-footer.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
 }
