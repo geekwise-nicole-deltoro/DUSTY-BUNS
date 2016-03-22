@@ -326,3 +326,27 @@ footer{
     height: 15em;
     color: #fff;
 }
+h4{
+    font-family: sans-serif;
+
+}
+
+h3{
+    font-family: 'Pacifico';
+    font-size: 2em;
+    
+}
+
+.left_side{
+    position: relative;
+    right:20em;
+    bottom: 60%;
+}
+
+.right_side{
+    position: relative;
+    left: 15em;
+    bottom: 85%;
+    font-size: 28px;
+
+}
