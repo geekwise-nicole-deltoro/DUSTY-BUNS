@@ -21,17 +21,21 @@ body{
 header{
     margin: 0 auto;
     width: 100%;
-    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
     
 }
 
 #primary_nav_wrap{
 	margin: 0 auto;
+    
 }
 
 #primary_nav_wrap ul{
 	list-style:none;
-	position:relative;
 	margin:0;
 	padding:0;
 }
@@ -40,12 +44,13 @@ header{
     text-align: center;
 	color:#fff;
 	text-decoration:none;
-	font-weight:900;
-	font-size:22px;
+	font-weight:800;
+    text-shadow: 1px 1px 5px #000;
+	font-size:16px;
 	line-height:32px;
 	padding:0 15px;
 	font-family:"Muli", sans-serif;
-    }
+}
 
 #primary_nav_wrap ul li{
 	margin:0;
@@ -57,10 +62,13 @@ header{
 
 #primary_nav_wrap ul li.current-menu-item{
 	background:none;
+    color: #bccf3d;
 }
+
 
 #primary_nav_wrap ul li:hover{
 	background:#bccf3d;
+    text-align: center;
 }
 
 #primary_nav_wrap ul ul{
@@ -68,7 +76,6 @@ header{
 	position:absolute;
 	top:100%;
 	left:0;
-	background:#fff;
 	padding:0;
 }
 
@@ -84,28 +91,32 @@ header{
 
 #primary_nav_wrap ul ul ul{
 	top:0;
-	left: 100%;
+    
+	
 }
 
 #primary_nav_wrap ul li:hover > ul{
-	display:block;
+	display: block;
+    text-align: center;
 
-    
-    
 }
 
 /* text on burger img*/
 .dusty{
     margin: 0 auto;
-    display: inline-block;
-    margin-left: 30%;
+    display: block;
     color: white;
+    
 } 
+
+
 h1{
+    
      font-family: "Pacifico";
-    font-size: 5rem;
+    font-size: 3rem;
 
 }
+
 h3{
     font-family: "Muli";
     font-size:26px;
@@ -278,6 +289,8 @@ hr{
     width: 242px;
 }
 
+/*third row 
+
 /*social media & contact info*/
 
 .container{
@@ -285,6 +298,7 @@ hr{
     background-color: #fff;
     width: 100%;
     text-align: center;
+    
 }
 
 h4{
