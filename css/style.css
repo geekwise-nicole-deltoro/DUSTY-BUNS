@@ -162,46 +162,199 @@ h2{
     
     
 }
-/* spaced */
-.spaced{
-    position: relative;
-    top:-30px;
-}
-/* boxes section */
+
+/* boxes */
+
+
 
 .wood{
+    display: block;
+    width: 100%;
     background-image: url(http://i.imgur.com/auP5mlE.jpg);
     background-repeat: no-repeat;
-    background-size:100%;
-    height: 25em;
-    background-position:center;
-    margin: 0;
+    background-size:contain;
+    margin: 0 auto;
     padding: 0;
+    text-align: center;
     
 }
-.man1{
+
+
+/* section of boxes home page*/
+
+
+#boxes{
     position: relative;
-    top:-60px;
-    margin-left: 60px;
+    top: -150px;
+    width: 120rem;
+    display: inline-block;
+    height:1000px;
+    
+}
+
+
+/* section 1 */
+.left_box{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.man1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
 }
 
 .address{
-    position: relative;
-    top:-597px;
-    height: 503px;
-    padding-top: 20px;
-    margin-left: 360px;
-    font-family: "muli";
-    width: 20%;
-    text-align: center;
+    width: 50%;
+    height: 100%;
     float: left;
-    padding: 15px;
-    background-color: #BCCF3D;
+    background-color:yellowgreen;
+    
 }
 
-/* lines for bistros */
+
+/* section 2*/
+
+
+.right_box{
+    width: 50%;
+    height: 25%;
+    float: left;
+}
+
+
+.address_3{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: orange;
+}
+
+
+.box_4{
+    width: 50%;
+    height: 100%;
+    float:right;
+    
+}
+
+
+/* section 3*/
+
+.right_two{
+    width: 50%;
+    height: 25%;
+    float: left;
+}
+
+.box_five{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.taco{
+
+}
+
+.box_six{
+    width: 50%;
+    height: 100%;
+    float:right;
+    background-color: orange;
+    
+}
+
+/*section4 */
+
+.left_2{
+    width: 50%;
+    height: 25%;
+    float: left;
+}
+.box_seven{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color:orange;
+}
+
+.box_eight{
+    width: 50%;
+    height: 100%;
+    float:right;
+    background-color:white;
+    
+}
+
+/* section 5 */
+
+.right_3{
+    width: 50%;
+    height: 25%;
+    float:
+    
+    
+}
+
+.box_nine{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: white;
+}
+
+
+.box_ten{
+    width: 50%;
+    height: 100%;
+    float:left;
+    background-color:orange;
+    
+}
+
+
+/* section 6*/
+
+.last_box{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top:-250px;
+    float: right;
+}
+
+.jeep{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: yellowgreen
+    
+}
+
+.box_eleven{
+    width: 50%;
+    height: 100%;
+    float:right;
+    background-color:white;
+    
+}
+
+/* lines for bistros */ 
+
 hr{
     width: 100px;
+    
+}
+
+/* fork & knife truck  fa */
+.icons{
+    font-size: 28px;
+    margin-top: 20px;
+    color: white;
 }
 
 /* telephone numbers */
@@ -211,6 +364,7 @@ hr{
     color: #525252;
     font-size: 15px;
 }
+
 .text{
     clear:inherit;
     text-align: center;
@@ -218,65 +372,8 @@ hr{
     color: white;
     font-size: 15px;
 }
-/* taco truck pic */
-.taco{
-    position: relative;
-    left: -15px;
-    width: 285px;
-    top:52px;
-}
-/* man hat img*/
-.man_hat{
-    position: relative;
-    top:-15px;
-    width: 286px;
-    height: 280px;
-    left:-15px;
-}
-/* second row of boxes*/
-#group{
-    position: relative;
-    left:-15px;
-    top:47px;
-    width: 299px;
-    height: 260px;
-}
 
-.two{
-    position: relative;
-    left: 60px;
-    height:420px;
-    width: 270px
-}
 
-/* pink truck image */
-.pink_truck{
-    clear:inherit;
-    width: 256px;
-}
-.pink{
-    position: relative;
-    left:-15px;
-    top:-15px;
-    width:286px;
-    height: 190px;
-}
-
-.jeep{
-    position: relative;
-    top:-597px;
-    float: left;
-    height:0px;
-    left:60px;
-    
-  
-}
-.bell{
-    height: 420px;
-    width: 242px;
-}
-
-/*third row 
 
 /*social media & contact info*/
 
