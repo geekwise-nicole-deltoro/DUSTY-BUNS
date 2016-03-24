@@ -1,17 +1,4 @@
-html{
-    margin: 0 auto;
-    width: 600px;
-    display: block;
-    color: #000;
-}
+html, body{
 
 
-body{
-    margin: 0;
-    padding: 0;
-    background-image: url(http://i.imgur.com/CE4L2bl.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
-    
 }
