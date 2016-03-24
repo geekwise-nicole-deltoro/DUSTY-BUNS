@@ -173,7 +173,7 @@ h2{
     background-image: url(http://i.imgur.com/auP5mlE.jpg);
     background-repeat: no-repeat;
     background-size:contain;
-    margin: 0 auto;
+    margin: 0 ;
     padding: 0;
     text-align: center;
     
@@ -184,16 +184,17 @@ h2{
 
 
 #boxes{
-    position: relative;
-    top: -150px;
-    width: 120rem;
-    display: inline-block;
-    height:1000px;
+
+    top: 150px;
+    width: 100%;
+    display: block;
+    height:100vh;
+    margin-top: -2em;
     
 }
 
 
-/* section 1 */
+
 .left_box{
     width: 50%;
     height: 50%;
@@ -210,31 +211,30 @@ h2{
 .address{
     width: 50%;
     height: 100%;
-    float: left;
-    background-color:yellowgreen;
+    float: right;
+    background-color:#bccf3d;
     
 }
 
 
-/* section 2*/
 
 
 .right_box{
-    width: 50%;
-    height: 25%;
+    width: 25%;
+    height: 50%;
+    float: left;
+    background-color: #ffc300;
+}
+
+
+.address_2{
+    width: 25%;
+    height: 50%;
     float: left;
 }
 
 
-.address_3{
-    width: 50%;
-    height: 100%;
-    float: left;
-    background-color: orange;
-}
-
-
-.box_4{
+.box_four{
     width: 50%;
     height: 100%;
     float:right;
@@ -242,7 +242,6 @@ h2{
 }
 
 
-/* section 3*/
 
 .right_two{
     width: 50%;
@@ -253,11 +252,11 @@ h2{
 .box_five{
     width: 50%;
     height: 100%;
-    float: left;
+    float: right;
 }
 
 .taco{
-
+float: right;
 }
 
 .box_six{
@@ -268,7 +267,7 @@ h2{
     
 }
 
-/*section4 */
+
 
 .left_2{
     width: 50%;
@@ -279,7 +278,7 @@ h2{
     width: 50%;
     height: 100%;
     float: left;
-    background-color:orange;
+    background-color: #ffc300;
 }
 
 .box_eight{
@@ -289,8 +288,6 @@ h2{
     background-color:white;
     
 }
-
-/* section 5 */
 
 .right_3{
     width: 50%;
