@@ -295,10 +295,6 @@ hr{
     font-size: 16px;
     text-decoration: none;
 }
-.tele:hover{
-    color: black;
-    text-decoration: underline;
-}
 
 .top_right{
    width: 737px;
@@ -362,6 +358,7 @@ hr{
  
  .truck{
      clear: both;
+     overflow: hidden;
      float: left;
      width: 50%;
      margin-left: 46.4em;
@@ -502,19 +499,5 @@ h4{
     top: 5rem;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
