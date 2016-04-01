@@ -127,7 +127,7 @@ header{
 
 /* Display Dropdowns on Hover */
 
-.nav_bar > ul > li:hover + ul{
+.nav_bar > ul > li:hover > ul{
     display: block;
     position: absolute;
     
