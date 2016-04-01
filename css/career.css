@@ -249,10 +249,10 @@ header {
 
 main{
     background-image: url(http://dustybuns.com/wp-content/uploads/2015/03/careerssplash_copy.jpeg);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    width: 3073px;
+    height: 1074px;
 }
 
 }
