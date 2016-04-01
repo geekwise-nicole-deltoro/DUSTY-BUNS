@@ -1,8 +1,9 @@
+
 html{
-    margin: 0 auto;
-    width: 100%;
-    height: 100vh;    
-    
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
 }
 
 body{
@@ -15,6 +16,8 @@ body{
     font-family:  "Pacifico", serif;
 
 }
+
+
 
 
 
@@ -122,7 +125,7 @@ header {
                 
                     header nav > ul > li > a span.toggle {
                         background-color: rgba(0,0,0,.05);
-                        border-radius: 2rem;
+                        border-radius: 3rem;
                         color: rgba(0,0,0,.25);
                         font-size: 1.0em;
                         font-weight: 500;
@@ -138,10 +141,10 @@ header {
                         color: rgba(187, 207, 61, 1);  
                     }
                 
-            header > nav > ul > li > nav {
+            header > nav > ul > li > nav > nav {
                 background-color: rgb(51,51,51);
                 border-radius: 1.5em;
-                text-align: center;
+                box-shadow: 0 2px 8px rgba(0,0,0,.6);
                 display: none;
                 overflow: hidden;
                 position: absolute;
@@ -149,15 +152,14 @@ header {
                 z-index: 100;
             }
             
-                header > nav > ul > li > nav > ul > li > a {
-                    font-size: .6em;
+                header > nav> nav > ul > li > nav > ul > li > a {
+                    color: rgba(255,255,255,.85);
                     transition: 300ms all ease;
                 }
                 
-                    header > nav > ul > li > nav > ul > li:hover > a {
-                        line-height: 7em;
-                        text-align: center;
-                        color: rgba(0, 0, 0, 6);
+                    header > nav > nav > ul > li > nav > ul > li:hover > a {
+                        background-color: rgba(0,0,0,.6);
+                        color: rgba(255,255,255,1);
                     }
 
 /* Medium screens */
@@ -209,7 +211,7 @@ header {
             }
     
                 header nav > ul > li > a {
-                    padding: 0 2.55rem;
+                    padding: 0 1.55rem;
                 }
                     
                     header nav > ul > li > a span.toggle {
@@ -218,16 +220,17 @@ header {
                     
                     header nav > ul > li > a span.caret {
                         border-bottom: 4px solid transparent;
+                        border-top: 4px solid rgba(0,0,0,.65);
                         border-right: 4px solid transparent;
                         border-left: 4px solid transparent;
-                        border-radius: 2px;
+                        border-radius: 1px;
                         content: "";
                         display: inline-block;
                         height: 0;
-
+                        margin: 0 0 0 .25rem;
                         transition: 250ms all ease;
                         width: 0;
-                        
+                        vertical-align: middle;
                     }
                     
                         header nav > ul > li:hover > a span.caret {
@@ -236,31 +239,13 @@ header {
                         }
     
    
-   header > nav > ul > li:hover > nav {
+   header > nav > ul > li:hover > nav > nav {
         background-color: #bccf3d;
         border-radius: .25em;
         display: block;
-        line-height: 2em;
-        width: 160px;
+        line-height: 3em;
+        width: 166px;
         text-align: center;
     }
-}
-
-
-h1{
-    color: 
-
-}
-
-
-
-main{
-    background-image: url(http://dustybuns.com/wp-content/uploads/2015/03/careerssplash_copy.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 3073px;
-    height: 1074px;
-}
-
 }
 
