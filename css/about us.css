@@ -268,7 +268,7 @@ header {
     text-align: center;
     padding-top: 18rem;
     font-size: 6rem;
-    font-family: "Muli", sans-serif;
+    font-family: sans-serif;
     
 }
 
@@ -298,7 +298,7 @@ header {
     margin: 0 3rem 0 0; 
 }
 
-.text_img > h3{
+.text_img > h1{
     margin: 0;
     padding: 0;
     color: #bccf3d;
@@ -308,7 +308,7 @@ header {
     font-family: sans-serif;
 }
 
-.sider_wrap{
+.side_wrap{
     display: block;
     margin: 0 auto;
     padding: 0;
