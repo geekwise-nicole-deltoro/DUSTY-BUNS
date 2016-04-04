@@ -269,3 +269,105 @@ header {
     width: 60%;
     margin: auto;
 }
+
+/*social media & contact info*/
+
+.container{
+    clear:both;
+    padding-top: 5em;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    height: 5em;
+    
+}
+
+.yellow2{
+    font-size: 1.em;
+    color: #ffc300;
+    font-family: sans-serif;
+    
+
+}
+
+
+hr{
+    width: 5em;
+    color: grey;
+
+}
+
+/*footer image*/
+
+.column-left{ 
+    position: relative;
+    /*bottom: 32em;*/
+    float: left; 
+    width: 33%;
+    color: black;
+    font-size: 1.4em;
+    
+}
+
+.column-right{
+    position: relative;
+    float: right;
+    width: 33%;
+    font-size: 1.4em;
+    color: black;
+    
+}
+.column-center{
+    position: relative;
+    display: inline-block;
+    width: 33%; 
+    color:black;
+    font-size: 1.4em
+}
+
+/*footer image*/
+
+footer{
+    clear: both;
+    margin: 0;
+    margin-top:25em;
+    padding: 0;
+    background-image: url(http://dustybuns.com/wp-content/themes/highgrove/img/bg-footer.jpg);
+    /*background-attachment:cover;*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 15em;
+    color: #fff;
+    background-blend-mode: multiply;
+    opacity: .9;
+    background-color: grey;
+}
+
+h4{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: yellow;
+}
+#reserved{
+    padding-left: 8rem;
+}
+
+
+.left_side{
+    position: relative;
+    /*right:20em;*/
+    /*bottom:  60%;*/
+    float: left;
+    display: inline-block;
+    width: 40%;
+} 
+
+.right_side{
+    position: relative;
+    /*left: 15em;*/
+    /*bottom: 85%;*/
+    font-size: 28px;
+    font-family: sans-serif;
+    top: 5rem;
+
+}
