@@ -33,7 +33,7 @@ body{
 
 
 header {
-    background-color: rgb(188, 207, 61);
+    background-color: none;
     display: flex;
     flex-direction: column;
     
