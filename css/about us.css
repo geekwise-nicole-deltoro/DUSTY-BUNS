@@ -311,7 +311,7 @@ main{
     font-size: 3.6rem;
     font-weight: 500;
     line-height: 1.1;
-    
+    font-family: sans-serif;
 }
 
 .sider_wrap{
@@ -331,7 +331,7 @@ main{
     height: 100%:
 }
 
-.Side_container > h1{
+.side_container > h1{
     text-align: center;
     font-family: cursive;
     color: #fff;
