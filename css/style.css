@@ -524,57 +524,7 @@ h4{
 }
 
 
-/*        media query         */
 
-@media all and (min-width:900px){
-        nav_bar, ul, ul, li, li:hover, a{
-        
-                display: block;
-        }
-        
-        h1, h2, h3{
-            margin: 0;
-        
-        }
-        
-        .wood, .text, .boxed_section{
-                display: block;
-        }
-
-}
-
-
-@media all and (min-width: 600px){
-        body, header, nav_container, nav_bar{
-                width: 100%;
-        }
-        
-        .container{
-        
-                margin: 0 auto;
-        }
-
-
-
-}
-
-@media all and (min-width: 320px){
-
-        
-    .yellow, .fa{
-                text-align: center;
-    
-    
-    }
-
-
-
-    
-
-
-
-
-}
 
 
 
