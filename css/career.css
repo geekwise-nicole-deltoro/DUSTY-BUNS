@@ -240,9 +240,10 @@ main{
     background-image: url(http://i.imgur.com/Ekvl7BD.jpg?1);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;;
+    width: 100%;
     height:805px;
 }
+
 section{
     text-align: center;
 
