@@ -135,12 +135,12 @@ header {
                     }
                 
                     header > nav > ul > li:hover > a {
-                        color: rgba(187, 207, 61, 1);  
+                        color: rgb(187, 207, 61);  
                     }
                 
             header > nav > ul > li > nav {
                 background-color: rgb(51,51,51);
-                border-radius: 1.5em;
+                border-radius: .5em;
                 text-align: center;
                 display: none;
                 overflow: hidden;
@@ -151,13 +151,14 @@ header {
             
                 header > nav > ul > li > nav > ul > li > a {
                     font-size: .6em;
+                    text-align: center;
                     transition: 300ms all ease;
                 }
                 
                     header > nav > ul > li > nav > ul > li:hover > a {
                         line-height: 7em;
                         text-align: center;
-                        color: rgba(0, 0, 0, 6);
+                        color: #fff;
                     }
 
 /* Medium screens */
@@ -177,15 +178,15 @@ header {
    
 
         header > div#logo {
-            background-color: transparent;
+            background-color: #;
             line-height: 100px;
             font-size: 20px;
-            font-weight: 800;
+            font-weight: 600;
         
         }
     
             header > div#logo > h1 {
-                color: rgba(51, 51, 51, 1)
+                color: rgb(51, 51, 51, 1)
                 
             }
             
@@ -246,8 +247,218 @@ header {
     }
 }
 
+                      
+main{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 1375px;
+    
+}
+
+
+.image{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 1700px;
+    height: 529px;
+    background-image: url("http://i.imgur.com/XRWj9Kz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+.text > h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 18rem;
+    font-size: 6rem;
+    font-family: "Muli", sans-serif;
+    
+}
 
 
 
+.text_img_wrap{
+    display: block;
+    margin: 0 auto;
+    padding: 4rem 0 0 0;
+    width: 100%;
+    height: 600px;
+}
 
+.text_img{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    height: 90%;
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+
+.text_img > img{
+    float: left;
+    margin: 0 3rem 0 0; 
+}
+
+.text_img > h3{
+    margin: 0;
+    padding: 0;
+    color: #bccf3d;
+    font-size: 3.6rem;
+    font-weight: 500;
+    line-height: 1.1;
+    
+}
+
+.sider_wrap{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 649px;
+    background-color: #bccf3d;
+}
+
+.side_container{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%:
+}
+
+.Side_container > h1{
+    text-align: center;
+    font-family: cursive;
+    color: #fff;
+    font-size: 6rem;
+    padding: 2rem 0 0 0;
+    
+}
+
+.sider{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height:100%;
+}
+
+.box{
+    display: block;
+    margin: 0 3.5rem auto;
+    padding: 0;
+    height: 432px;
+    width: 360px;
+    float: left;
+    font-size: 1.4rem;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.box > img{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 360px;
+    height: 240px;
+}
+
+.box > a{
+    display: inline-block;
+    margin: 3rem 0 3rem 2.5rem;
+    padding:0;
+    height: auto;
+    width: 100%;
+    font-size: 3rem;
+    text-decoration: none;
+    color: #ffc300;
+}
+
+.box > span{
+    margin-left: 3rem;
+
+
+}
+
+
+
+/*footer image*/
+
+.column-left{ 
+    position: relative;
+    /*bottom: 32em;*/
+    float: left; 
+    width: 33%;
+    color: black;
+    font-size: 1.4em;
+    
+}
+
+.column-right{
+    position: relative;
+    float: right;
+    width: 33%;
+    font-size: 1.4em;
+    color: black;
+    
+}
+.column-center{
+    position: relative;
+    display: inline-block;
+    width: 33%; 
+    color:black;
+    font-size: 1.4em;
+}
+
+/*footer image*/
+
+footer{
+    clear: both;
+    margin: 0;
+    margin-top:25em;
+    padding: 0;
+    background-image: url(http://dustybuns.com/wp-content/themes/highgrove/img/bg-footer.jpg);
+    /*background-attachment:cover;*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 15em;
+    color: #fff;
+    background-blend-mode: multiply;
+    opacity: .9;
+    background-color: grey;
+}
+
+h4{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: yellow;
+}
+#reserved{
+    padding-left: 8rem;
+}
+
+
+.left_side{
+    position: relative;
+    /*right:20em;*/
+    /*bottom:  60%;*/
+    float: left;
+    display: inline-block;
+    width: 40%;
+} 
+
+.right_side{
+    position: relative;
+    /*left: 15em;*/
+    /*bottom: 85%;*/
+    font-size: 28px;
+    top: 5rem;
+
+}
 
