@@ -46,7 +46,7 @@ header {
     }
     
     header > .menuDown {
-        box-shadow: 0 3px 5px rgba(0,0,0,.15);
+        box-shadow: 0 3px 5px rgb();
     }
     
     header > .menuUp {
@@ -81,7 +81,7 @@ header {
             }
             
                 header > div#logo > div#navToggle:hover > a {
-                    color: rgba(255,255,255,1);
+                    color: yellowgreen;
                 }
 
     header > nav {
@@ -172,14 +172,15 @@ header {
         padding: 0 3rem;
         width: 100%;
         
+        
     }
    
    
 
         header > div#logo {
             background-color: transparent;
-            font-size: 20px;
-            font-weight: 500;
+            font-size: 16px;
+            font-weight: 700;
         
         }
     
@@ -193,7 +194,7 @@ header {
         background-color: transparent;
         display: inline-block;
         text-align: center;
-        margin-left: 7rem;
+        margin-left: 6rem;
     }
     
         header > nav > ul {
