@@ -240,22 +240,192 @@ main{
     background-image: url(http://i.imgur.com/Ekvl7BD.jpg?1);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: scroll;
     width: 100%;
     height:805px;
-}
-
-section{
     text-align: center;
-
-
 }
 
 
-.lrge-text{
+
+h1{
+    margin: 0 auto;
     color:#bccf3d;
+    font-size: 3em;
+    text-align: center;
+    
+    
+}
+
+h5{
+    color: #fff;
+}
+
+.top{
+     width: 100%;
+     height: 574px;
+     float: left;
+     align-content: center;
+  margin: 20px auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          
+          
+}
+
+p{
+    margin-top: 5em ;
+    width: 70%;
+    margin-left: 2em;
+    font-family: sans-serif;
+    font-size: 1.9em;
+} 
+
+.right-top{
+     width:262.5px;
+      height: 50%;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
     
 
 }
 
+.right-bottom{
+    clear: both;
+    width: 262.5px;
+    height: 50%;
+    float: right;
+    margin-right: 15%;
+}
 
 
+h2{
+    margin: 0 auto;
+    font-size: 4.8rem;
+    color: #bccf3d;
+    font-family: "Pacifico", sans-serif;
+    box-sizing: border-box;
+    border-bottom: solid 2px #bccf3d;
+    
+   
+}
+
+
+.bottom{
+    width: 500px;
+  margin-top: 20px auto;
+  padding: 50px;
+  float: left;
+   -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+
+
+/*social media & contact info*/
+
+.container{
+    clear:both;
+    padding-top: 5em;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    height: 5em;
+    
+}
+
+.yellow{
+    font-size: 1.2em;
+    color: #ffc300;
+    
+
+}
+h3{
+    clear: both;
+    color: #fff;
+    font-family: "Pacifico";
+    font-size: 3em;
+}
+
+hr{
+    width: 5em;
+    color: grey;
+
+}
+
+/*footer image*/
+
+.column-left{ 
+    position: relative;
+    /*bottom: 32em;*/
+    float: left; 
+    width: 33%;
+    color: black;
+    font-size: 1.4em;
+    
+}
+
+.column-right{
+    position: relative;
+    float: right;
+    width: 33%;
+    font-size: 1.4em;
+    color: black;
+    
+}
+.column-center{
+    position: relative;
+    display: inline-block;
+    width: 33%; 
+    color:black;
+    font-size: 1.4em
+}
+
+/*footer image*/
+
+footer{
+    clear: both;
+    margin: 0;
+    margin-top:25em;
+    padding: 0;
+    background-image: url(http://dustybuns.com/wp-content/themes/highgrove/img/bg-footer.jpg);
+    /*background-attachment:cover;*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 15em;
+    color: #fff;
+    background-blend-mode: multiply;
+    opacity: .9;
+    background-color: grey;
+}
+
+h4{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: yellow;
+}
+#reserved{
+    padding-left: 8rem;
+}
+
+
+.left_side{
+    position: relative;
+    /*right:20em;*/
+    /*bottom:  60%;*/
+    float: left;
+    display: inline-block;
+    width: 40%;
+} 
+
+.right_side{
+    position: relative;
+    /*left: 15em;*/
+    /*bottom: 85%;*/
+    font-size: 28px;
+    top: 5rem;
+
+}
