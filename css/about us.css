@@ -7,7 +7,7 @@ html{
 
 body{
     margin: 0 auto;
-    width: 100%;
+    width: 1480px;
     height: 100vh;
     background-color: #fff;
     color: #000;
@@ -18,16 +18,6 @@ body{
 
 
 
-.sm_logo{
-    height: 90px;
-    border-bottom: 0;
-    font-family: "Pacifico", serif;
-    font-size: 2.6rem;
-    font-weight: 700;
-    line-height: 60px;
-    padding-right: 30px;
-    padding-left: 30px;
-}
 
 
 
@@ -40,8 +30,8 @@ header {
 }
 
     header > div#logo {
-        line-height: 30px;
-    
+        line-height: 80px;
+        
         
     }
     
@@ -51,6 +41,7 @@ header {
     
     header > .menuUp {
         box-shadow: none;
+        
     }
     
         header > div#logo > h1 {
@@ -113,7 +104,6 @@ header {
                     display: block;
                     color: rgba(51, 51, 51, 1);
                     font-weight: 600;
-                
                     text-decoration: none;
                     transition: 250ms all ease;
                 }
@@ -153,7 +143,7 @@ header {
                 }
                 
                     header > nav > ul > li > nav > ul > li:hover > a {
-                        line-height: 7em;
+
                         text-align: center;
                         color: #fff;
                     }
@@ -178,7 +168,7 @@ header {
 
         header > div#logo {
             background-color: transparent;
-            font-size: 16px;
+            font-size: 2.3em;
             font-weight: 700;
         
         }
@@ -249,7 +239,7 @@ header {
 
 
 
-.image{
+main{
     display: block;
     margin: 0 auto;
     padding: 0;
@@ -262,6 +252,15 @@ header {
     
 }
 
+.logo{
+    margin: 0 auto;
+    font-size: 3.5em;
+    color: #bccf3d;
+    text-align: center;
+    font-weight: 700;
+    
+
+}
 .text > h1{
     color: #fff;
     text-align: center;
@@ -284,10 +283,12 @@ header {
 
 .text_img{
     display: block;
-    margin: 0 auto;
+    margin-right: 10%;
+    margin-left: 5%;
     padding: 0;
     width: 80%;
     height: 90%;
+    overflow: hidden;
     font-size: 1em;
     line-height: 1.6em;
 }
@@ -316,37 +317,38 @@ header {
     background-color: #bccf3d;
 }
 
-.side_container{
-    display: inline-block;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: 0%:
-}
+
 
  h1{
     text-align: center;
     font-family: "Pacifico",sans-serif;
     color: #fff;
+    margin-right: 3em;
     font-size: 4.2rem;
         
 }
 
-#slider_sec{
-    margin:2rem;
-    height:360px;
-    padding: 10em;
-    width:auto;
-    background-color:#bccf3d;
+
+#myWorkContent{
+    width:100%;
+    height:340px;
+    border: none;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
-.centered_title{
-    margin:0 auto;
-    height: 10rem;
-    width:40rem;
-    text-align: center;
-    top:-20rem;
-    display:block;
+#myWorkContent a {
+    display: inline-block;
+    vertical-align: middle;
 }
+
+#myWorkContent img {border: 0;
+
+}
+
+
+
+
 @keyframes slidy {
 0% { left: 0%; }
 20% { left: 0%; }
@@ -358,9 +360,9 @@ header {
 95% { left: -300%; }
 100% { left: -400%; }
 }
-div#slider { overflow: hidden; }
-div#slider figure img { width: 20%; float: left; }
-div#slider figure { 
+div#myWorkContent { overflow: hidden; }
+div#myWorkContent figure img { width: 20%; float: left; }
+div#myWorkContent figure { 
   position: relative;
   width: 300%;
   margin: 0;
@@ -376,7 +378,7 @@ div#slider figure {
 
 footer{
     clear: both;
-    margin: 0;
+    margin-top: 5em;
     padding: 0;
     background-image: url(http://dustybuns.com/wp-content/themes/highgrove/img/bg-footer.jpg);
     /*background-attachment:cover;*/
@@ -384,7 +386,6 @@ footer{
     background-size: 100%;
     height: 12em;
     color: #fff;
-    
     background-blend-mode: multiply;
     opacity: .9;
     background-color: grey;
@@ -414,7 +415,8 @@ h4{
     position: relative;
     /*left: 15em;*/
     /*bottom: 85%;*/
-    font-size: 28px;
+    font-size: 1.3em;
+    font-family: sans-serif;
     top: 5rem;
 
 }
