@@ -20,7 +20,7 @@ body{
 
 
 header {
-    background-color: rgb(188, 207, 61);
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     height: 25%;
@@ -44,14 +44,14 @@ header {
     
         header > div#logo > h1 {
             color: #000;
-            font-weight: 200;
-            font-size: 3.0em;
+            font-weight: 700;
+            font-size: 2.3em;
             
             
         }
         
         header > div#logo > div#navToggle {
-            background-color: rgba(0,0,0,.15);
+            background-color: none;
             position: absolute;
             right: 0;
             top: 0;
@@ -59,12 +59,12 @@ header {
         }
             
             header > div#logo > div#navToggle:hover {
-                background-color: rgba(0,0,0, .1);
+                background-color: none;
             }
             
             header > div#logo > div#navToggle > a {
                 display: block;
-                font-size: 0.5em;
+                font-size: 0.4em;
                 font-weight: 600;
                 padding: 0 2.5rem;
                 text-decoration: none;
@@ -86,7 +86,7 @@ header {
         header nav > ul {
             list-style-type: none;
             text-align: center;
-            font-size: 1.2em;
+            font-size: 1.em;
             font-family: sans-serif;
         }
         
@@ -129,18 +129,17 @@ header {
                     }
                 
             header > nav > ul > li > nav {
-                background-color: rgb(51,51,51);
-                border-radius: 1.5em;
+                background-color: #fff;
                 text-align: center;
-                display: none;
                 overflow: hidden;
                 position: absolute;
-                width: 90%;
+                width: 11em;
+                line-height: 1.3em;
                 z-index: 100;
             }
             
                 header > nav > ul > li > nav > ul > li > a {
-                    font-size: .6em;
+                    font-size: .7em;
                     transition: 300ms all ease;
                 }
                 
@@ -168,20 +167,20 @@ header {
 
         header > div#logo {
             background-color: transparent;
-            line-height: 100px;
+            line-height: 90px;
             font-size: 20px;
             font-weight: 800;
         
         }
     
             header > div#logo > h1 {
-                color: rgba(51, 51, 51, 1)
+                display: block;
                 
             }
             
     header > nav {
         background-color: transparent;
-        display: inline-block;
+        display: inline;
         text-align: center;
     
     }
@@ -194,6 +193,7 @@ header {
         
             header nav > ul > li {
                 border-bottom: none;
+                
                 
                 
             }
@@ -239,7 +239,8 @@ header {
 /*        map with yellow text     */
 
 .main{
-    width: 100%;
+     width: 970px;
+    height:380px;
     margin: 0;
     padding: 0;
     
@@ -247,9 +248,8 @@ header {
 .yellow{
     margin: 0;
     padding: 0;
-    font-size: 4em;
-    font-family: sans-serif;
-    font-weight: 500;
+    font-size: 3.4em;
+    font-weight: 700;
     text-transform: capitalize;
     text-align: center;
     color: #ffc300;
@@ -257,7 +257,8 @@ header {
 }
 /*google maps */
 #googleMap{
-    width: 60%;
+    width: 970px;
+    height:380px;
     margin: auto;
 }
 
@@ -265,16 +266,16 @@ header {
 
 .container{
     clear:both;
-    padding-top: 5em;
+    padding-top: 2em;
     background-color: #fff;
     width: 100%;
     text-align: center;
-    height: 5em;
+    height: em;
     
 }
 
 .yellow2{
-    font-size: 1.em;
+    font-size: 1.3em;
     color: #ffc300;
     font-family: sans-serif;
     
@@ -283,7 +284,7 @@ header {
 
 
 hr{
-    width: 5em;
+    width: 8em;
     color: grey;
 
 }
@@ -296,7 +297,7 @@ hr{
     float: left; 
     width: 33%;
     color: black;
-    font-size: 1.4em;
+    font-size: 1.1em;
     
 }
 
@@ -304,7 +305,7 @@ hr{
     position: relative;
     float: right;
     width: 33%;
-    font-size: 1.4em;
+    font-size: 1.1em;
     color: black;
     
 }
@@ -313,7 +314,12 @@ hr{
     display: inline-block;
     width: 33%; 
     color:black;
-    font-size: 1.4em
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.fa fa{
+    text-decoration: none;
 }
 
 /*footer image*/
@@ -321,13 +327,13 @@ hr{
 footer{
     clear: both;
     margin: 0;
-    margin-top:25em;
+    margin-top:7em;
     padding: 0;
     background-image: url(http://dustybuns.com/wp-content/themes/highgrove/img/bg-footer.jpg);
     /*background-attachment:cover;*/
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 15em;
+    height: 12em;
     color: #fff;
     background-blend-mode: multiply;
     opacity: .9;
@@ -337,7 +343,7 @@ footer{
 h4{
     font-family: sans-serif;
     font-size: 24px;
-    color: yellow;
+    color: #ffc300;
 }
 #reserved{
     padding-left: 8rem;
@@ -351,6 +357,7 @@ h4{
     float: left;
     display: inline-block;
     width: 40%;
+    
 } 
 
 .right_side{
