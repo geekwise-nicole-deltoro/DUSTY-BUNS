@@ -1,4 +1,3 @@
-
 html{
     margin: 0 auto;
     width: 100%;
@@ -18,17 +17,6 @@ body{
 }
 
 
-
-.sm_logo{
-    height: 90px;
-    border-bottom: 0;
-    font-family: "Pacifico", serif;
-    font-size: 2.6rem;
-    font-weight: 700;
-    line-height: 60px;
-    padding-right: 30px;
-    padding-left: 30px;
-}
 
 
 main{
@@ -259,222 +247,96 @@ header {
     }
 }
 
-.orange{
-    text-align: center;
-    
+.menu_main{
+    height: 200rem;
+    width:100%;
+}
+.backgroundsfbistro_sec{
+    height:100rem;
+    width:auto;
+    background-image: url(http://i.imgur.com/61ki1kk.jpg);background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.left_info{
+    height:50%;
+    width:25%;
+    display:block;
+    float:left;
+}
+#green_hr{
+    border: 0;
+    height:2px;
+    width:80%;
+    background:#bccf3d;
+}
+#left_title_text{
+    font-size:5rem;
+}
+#menu_img_right{
+    height:100rem;
+    width:75%;
+    display:block;
+    float:right;
 }
 
-/*text content*/
-
-.san fran{
-    display: block;
-
-}
-h1{
-    color: #fff;
-    font-family:"Pacifico", serif;
-    text-align: center;
-    
-}
-
-h3{
-    color: #fff;
-    text-align: center;
-}
-
-
-
-/*Strip the ul of padding and list styling*/
-ul {
-	list-style-type:none;
-	margin:0;
-	padding:0;
-	position: absolute;
-    text-align: center;
-}
-
-/*Create a horizontal list with spacing*/
-li {
-	display:inline-block;
-    text-align: center;
-	margin-right: 1px;
-    
-}
-
-/*Style for menu links*/
-
-
-
-
-li a {
-	display:block;
-	min-width:140px;
-	height: 50px;
-    text-align: center;
-	line-height: 50px;
-    font-family: "Muli", serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-	color: #000;
-	text-decoration: none;
-}
-
-/*Hover state for top level links*/
-li:hover a {
-	background: #BCCF3D;
-}
-
-/*Style for dropdown links*/
-li:hover ul a {
-	background: #fff;
-	color:  #333;
-	height: 40px;
-	line-height: 40px;
-}
-
-/*Hover state for dropdown links*/
-li:hover ul a:hover {
-	background: #BCCF3D;
-	color: #fff;
-}
-
-/*Hide dropdown links until they are needed*/
-li ul {
-	display: none;
-}
-
-/*Make dropdown links vertical*/
-li ul li {
-	display: block;
-	float: none;
-}
-
-/*Prevent text wrapping*/
-li ul li a {
-	width: auto;
-	min-width: 100px;
-	padding: 0 20px;
-}
-
-/*Display the dropdown on hover*/
-ul li a:hover+.hidden, .hidden:hover {
-	display: block;
-}
-
-/*Style 'show menu' label button and hide it by default*/
-.show-menu {
-	font-family: sans-serif;
-	text-decoration: none;
-	color: #000;
-	background: #BCCF3D;
-	text-align: center;
-	padding: 10px 0;
-	display: none;
-    
-}
-
-/*Hide checkbox*/
-input[type=checkbox]{
-    display: none;
-}
-
-/*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~
-    #menu{
-    display: block;
-}
-
-/* san fran text content*/
-
-.san fran{
-    margin: 0 auto;
-    text-align: center;
-    
-}
-
-/*text content*/
-
-h1{
-    font-weight: 500;
-    color: #fff;
-}
-
-h3{
-    color: #fff;
-}
-
-
-/*bottom half page*/
-#container {
-    min-height: 100%;
-    background-color: #DDD;
-    width: 100%;
-    margin: 0 auto;
-    overflow: auto;
-
-}
-
-#container {
-    height: 100%;
-}
-
-#contentwrapper{
-    float: right;
-    width: 100%;
-    margin-left: -360px;
-}
-
-#content{
-    margin-left: 360px;
-}
-
-#header{
-    height: 85px;
-    background: #000;
-    color: #fff;
-}
-
-#leftcolumn{
+.round_img_div{
+    position: relative;
     float: left;
-    width: 180px; 
-    background: #C8FC98;
+}
+#rounded_img{
+    padding:.5rem;
+    height:216px;
+    width:216px;
+    border-radius: 100rem;
+    border: solid 5px #bccf3d;
+    background-color:ffffff;
+}
+.green_h4{
+    color:#bccf3d;
+}
+footer{
+    clear: both;
+    margin: 0;
+    margin-top:25em;
+    padding: 0;
+    background-image: url(http://dustybuns.com/wp-content/themes/highgrove/img/bg-footer.jpg);
+    /*background-attachment:cover;*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 15em;
+    color: #fff;
+    background-blend-mode: multiply;
+    opacity: .9;
+    background-color: grey;
+}
+
+h4{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: yellow;
+}
+#reserved{
+    padding-left: 8rem;
 }
 
 
-#leftnavbox{
+.left_side{
+    position: relative;
+    /*right:20em;*/
+    /*bottom:  60%;*/
     float: left;
-    width: 350px;
-    height: 80%;
-    background: #ffcc00;
-    position: absolute;
-    left: 0px;
-    position: fixed;
+    display: inline-block;
+    width: 40%;
+} 
+
+.right_side{
+    position: relative;
+    /*left: 15em;*/
+    /*bottom: 85%;*/
+    font-size: 28px;
+    top: 5rem;
+
 }
 
 
-
-
-
-
-
-/*Responsive Styles*/
-
-@media screen and (max-width : 760px){
-	/*Make dropdown links appear inline*/
-	ul {
-		position: static;
-		display: none;
-}
-	/*Create vertical spacing*/
-	li {
-		margin-bottom: 1px;
-}
-	/*Make all menu links full width*/
-	ul li, li a {
-		width: 100%;
-}
-	/*Display 'show menu' link*/
-	.show-menu {
-		display:block;
-	}
-}
