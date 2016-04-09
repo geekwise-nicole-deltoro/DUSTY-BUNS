@@ -131,6 +131,7 @@ header {
             header > nav > ul > li > nav {
                 background-color: #fff;
                 text-align: center;
+                display: none;
                 overflow: hidden;
                 position: absolute;
                 width: 11em;
