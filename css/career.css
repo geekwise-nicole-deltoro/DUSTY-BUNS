@@ -258,11 +258,11 @@ h5{
 
 
 main{
-    background-image: url(http://dustybuns.com/wp-content/uploads/2015/03/careerssplash_copy.jpeg")
+    background-image: url(http://dustybuns.com/wp-content/uploads/2015/03/careerssplash_copy.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-    width: 100%;
+    width: 1600px;
     height:905px;
     text-align: center;
 }
@@ -273,23 +273,25 @@ main{
 h1{
     clear: both;
     color:#bccf3d;
-    font-size: 3.8em;
+    font-size: 5.8em;
     font-family: "Pacifico";
+    position: relative;
     
 }
 
 p{
     color:white;
     float: left;
-    font-size:20px;
+    margin-top: 18em;
+    font-size: 1.2em;
     font-family: sans-serif;
-    text-align: center;
+
 
 }
 
 section{
     margin: 0 auto;.
-    width: 100%;
+    width: 80%;
     font-size: 1.2em;
     font-family: sans-serif;
     text-align: center;
@@ -303,7 +305,7 @@ section{
 .intro{
     height: 50%;
     width: 75%;
-    text-align: center;
+    line-height: 1.8em;
     float: left;
     
     
@@ -313,12 +315,14 @@ h2{
     font-size: 2.7em;
     font-family: "Pacifico";
     color: #bccf3d;
-
+    float: left;
+    margin-left: 3em;
 }
 
-.skills{
-    color: #000;
-    font-size: 1.1em;
+#skills{
+    color: grey;
+    font-size: 1.4em;
+    
 
 
 }
@@ -327,25 +331,29 @@ h2{
 p{
     color: grey;
     float: left;
+    width: 75%;
+    
     
 }
 
 
 
-#side_div{
+.side_div{
     height:40rem;
     width:20rem;
     position:relative;
     right:90rem;
     top:-40rem;
 }
-#green_hr{
+
+.green_hr{
     height: 1px;
     width:10px;
     color:#bccf3d;
 }
 
-h1{
+h1{    
+    position: relative;
     font-size: 3.4em;
     color:#bccf3d;
     text-align: center;
