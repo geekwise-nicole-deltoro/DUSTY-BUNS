@@ -153,11 +153,11 @@ header {
     header {
         background-color: white;
         flex-direction: row;
-        line-height: 3em;
+        line-height: 2em;
         padding: 0 5rem;
         width: 100%;
         position: absolute;
-        height: 2em;
+        height: 5em;
     
     }
 
@@ -165,10 +165,11 @@ header {
 
         header > div#logo {
             background-color: white;
-            line-height: 40px;
-            font-size: 18px;
-            margin-top: -3em;
-            
+            line-height: 10px;
+            background-color: white;
+            font-size: 1.6em;
+            margin-top: -1em;
+        
             
         
         }
@@ -184,11 +185,11 @@ header {
         width: 100%;
         text-align: center;
         
+        
     }
     
         header > nav > ul {
-            margin-top:-2em;
-    
+            margin: 0 auto;
             background-color: white;
             width: 100%;
             display: flex;
@@ -198,20 +199,21 @@ header {
         
             header nav > ul > li {
                 border-bottom: none;
-                font-family: 
+                 
                 
             }
     
                 header nav > ul > li > a {
                     padding: 0 2.55rem;
                     font-family: "Muli", serif;
-                    font-weight: 700;
-                    letter-spacing: 1px;
+                    
+                    
 
                 }
                     
                     header nav > ul > li > a span.toggle {
-                        display: none;    
+                        display: none; 
+                        margin: 0 auto;
                     }
                     
                     header nav > ul > li > a span.caret {
@@ -260,13 +262,16 @@ main{
 
 
 
-#greenlogo{
+
+h1{
+    clear: both;
     color:#bccf3d;
-    font-size: 5rem;
+    font-size: 3.8em;
+    
     
 }
 
-h5{
+p{
     color:#fff;
     font-size:20px;
     font-family: sans-serif;
