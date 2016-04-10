@@ -247,27 +247,61 @@ header {
     }
 }
 
-.menu_main{
-    height: 200rem;
-    width:100%;
+.logo{
+
+    color: #000;
+
 }
-.backgroundsfbistro_sec{
-    height:100rem;
+
+.background-image{
+    height:473px;
     width:auto;
-    background-image: url(http://i.imgur.com/61ki1kk.jpg);background-repeat: no-repeat;
+    background-image: url(http://i.imgur.com/VpSQRx6.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    text-align: center;    
+}
+
+h1{
+    color: #fff;
+    font-size: 2.8em;
+
+}
+
+h4{
+    font-size: 1.9em;
+
+}
+
+h2{
+    font-size: 3.8em;
+    text-align: center;
+    font-family: sans-serif;
+    color: grey;
+
+}
+
+p{
+    text-align: center;
+    font-size: 1.5em;
+    color: grey;
+    font-family: monospace
+
 }
 .left_info{
+    margin: 0 auto;
     height:50%;
     width:25%;
     display:block;
     float:left;
+    font-size: .8em;
 }
+
 #green_hr{
     border: 0;
     height:2px;
-    width:80%;
+    width:85%;
     background:#bccf3d;
 }
 #left_title_text{
@@ -279,7 +313,7 @@ header {
     display:block;
     float:right;
 }
-
++
 .round_img_div{
     position: relative;
     float: left;
