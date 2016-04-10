@@ -7,7 +7,7 @@ html{
 
 body{
     margin: 0 auto;
-    width: 1800px;
+    width: 1400px;
     height: 100vh;
     background-color: #fff;
     color: #000;
@@ -17,15 +17,22 @@ body{
 
 
 header {
-
     display: flex;
     flex-direction: column;
 
     
 }
 
+h5{
+    margin: auto;
+    font-size: 1.5em;
+    
+    
+}
+
     header > div#logo {
         line-height: 90px;
+    
 
     
         
@@ -251,11 +258,11 @@ header {
 
 
 main{
-    background-image: url(http://i.imgur.com/Ekvl7BD.jpg?1);
+    background-image: url(http://dustybuns.com/wp-content/uploads/2015/03/careerssplash_copy.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-    width: 100%;
+    width: 1600px;
     height:905px;
     text-align: center;
 }
@@ -266,58 +273,92 @@ main{
 h1{
     clear: both;
     color:#bccf3d;
-    font-size: 3.8em;
-    
+    font-size: 5.8em;
+    font-family: "Pacifico";
+    position: relative;
     
 }
 
 p{
-    color:#fff;
-    font-size:20px;
+    color:white;
+    float: left;
+    margin-top: 18em;
+    font-size: 1.2em;
+    font-family: sans-serif;
+
+
+}
+
+section{
+    margin: 0 auto;.
+    width: 80%;
+    font-size: 1.2em;
     font-family: sans-serif;
     text-align: center;
+    color: #fff;
+    float: left;
+    height: 50em;
+    
     
 }
 
-#career_info{
-    height:15em;
-    margin: 80em;
-    width:100%;
+.intro{
+    height: 50%;
+    width: 75%;
+    line-height: 1.8em;
+    float: left;
+    
+    
+    
+}
+h2{
+    font-size: 2.7em;
+    font-family: "Pacifico";
+    color: #bccf3d;
+    float: left;
+    margin-left: 3em;
+}
+
+#skills{
+    color: grey;
+    font-size: 1.4em;
+    
+
 
 }
 
 
-ol{
-    height: 25rem;
-    width:80rem;
-    font-size: 20px;
-    list-style: none; 
+p{
+    color: grey;
+    float: left;
+    width: 75%;
+    
+    
 }
-#special_liststyle:hover{
-    background-color:transparent;
-}
-/* Insert_content_that_looks like_bullets */
-#special_liststyle:before {
-    content: "-"; 
-    padding-right: 8px;
-}
-#orangefont{
-    color:#ffc300;
-    width:20rem;
-}
-#side_div{
+
+
+
+.side_div{
     height:40rem;
     width:20rem;
     position:relative;
     right:90rem;
     top:-40rem;
 }
-#green_hr{
+
+.green_hr{
     height: 1px;
     width:10px;
     color:#bccf3d;
 }
 
+h1{    
+    position: relative;
+    font-size: 3.4em;
+    color:#bccf3d;
+    text-align: center;
+    
+}
 /*social media & contact info*/
 
 .container{
