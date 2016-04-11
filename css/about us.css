@@ -237,7 +237,7 @@ header {
 
                       
 
-
+/*      main image with text content   */
 
 main{
     display: block;
@@ -252,10 +252,11 @@ main{
     
 }
 
+/*  about us large logo  */
 .logo{
     margin: 0 auto;
     font-size: 3.5em;
-    color: #bccf3d;
+    color: white;
     text-align: center;
     font-weight: 700;
     
