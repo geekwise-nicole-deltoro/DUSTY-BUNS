@@ -267,27 +267,7 @@ main{
     text-align: center;
 }
 
-
-
-
-h1{
-    clear: both;
-    color:#bccf3d;
-    font-size: 5.8em;
-    font-family: "Pacifico";
-    position: relative;
-    
-}
-
-p{
-    color:white;
-    float: left;
-    margin-top: 18em;
-    font-size: 1.2em;
-    font-family: sans-serif;
-
-
-}
+/*text content*/
 
 section{
     margin: 0 auto;.
@@ -316,15 +296,13 @@ h2{
     font-family: "Pacifico";
     color: #bccf3d;
     float: left;
-    margin-left: 3em;
+    margin-left: 8em;
 }
 
 #skills{
     color: grey;
-    font-size: 1.4em;
+    float: left;
     
-
-
 }
 
 
@@ -336,7 +314,7 @@ p{
     
 }
 
-
+/*  side requirements- text content  */
 
 .side_div{
     height:40rem;
