@@ -16,11 +16,7 @@ body{
 
 }
 
-
-
-
-
-
+/*      header     */
 
 header {
     background-color: none;
@@ -329,28 +325,35 @@ main{
         
 }
 
-
-#myWorkContent{
-    width:100%;
-    height:340px;
-    border: none;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
+.green{
+    width: 100%;
+    height: 90vh;
+    background-color:#bccf3d;
+    background-size: cover;
+    float: left;
 }
-#myWorkContent a {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-#myWorkContent img {border: 0;
-
+.white-content{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
 }
 
+.img-slider{
+   width: 95%;
+    margin: auto;
+}
+
+.slider{
+   width: 30%;
+    float: left; 
+    background-color: #fff;
+    height: 450px;
+
+}
 
 
-
-@keyframes slidy {
+@keyframes slider {
 0% { left: 0%; }
 20% { left: 0%; }
 25% { left: -100%; }
@@ -361,9 +364,10 @@ main{
 95% { left: -300%; }
 100% { left: -400%; }
 }
-div#myWorkContent { overflow: hidden; }
-div#myWorkContent figure img { width: 20%; float: left; }
-div#myWorkContent figure { 
+
+div .slider { overflow: hidden; }
+div .slider figure img { width: 20%; float: left; }
+div .sliderfigure { 
   position: relative;
   width: 300%;
   margin: 0;
@@ -390,6 +394,7 @@ footer{
     background-blend-mode: multiply;
     opacity: .9;
     background-color: grey;
+    width: 100%;
 }
 
 h4{
