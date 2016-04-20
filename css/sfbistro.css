@@ -245,7 +245,7 @@ header {
 }
 
 .logo{
-
+    text-decoration: none;
     color: #000;
 
 }
@@ -268,7 +268,7 @@ h1{
 
 h4{
     font-size: 1.9em;
-
+    color: #fff;
 }
 
 h2{
@@ -279,9 +279,16 @@ h2{
 
 }
 
+h5{
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    font-family: fantasy;
+}
+
 p{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: grey;
     font-family: monospace;
 
@@ -302,7 +309,7 @@ p{
     background:#bccf3d;
 }
 #left_title_text{
-    font-size:5rem;
+    font-size:3rem;
 }
 #menu_img_right{
     height:100rem;
@@ -310,8 +317,8 @@ p{
     display:block;
     float:right;
 }
-+
-.round_img_div{
+
+.round{
     position: relative;
     float: left;
 }
@@ -349,6 +356,11 @@ h4{
 }
 #reserved{
     padding-left: 8rem;
+}
+
+span{
+    font-family: monospace;
+    color: #fff;
 }
 
 
