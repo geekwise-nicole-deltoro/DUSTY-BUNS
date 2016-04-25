@@ -33,7 +33,7 @@
             <nav>
             <ul>
                 <li><a href="sfbistro.html">SF Bistro</a></li>
-                <li><a href="fresnobistro">Fresno Bistro</a></li>
+                <li><a href="fresnobistro.html">Fresno Bistro</a></li>
                 <li><a href="bus.html">Fresno Bus</a></li>
             </ul>
             </nav>
@@ -101,10 +101,19 @@
        
        </p> 
         </div>
-        
-<div id="googleMap" style="width:100%;height:250px;" class="map-sm"></div>
+    <div class="map-sm">   
+    
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+    
+    <div style='overflow:hidden;height:300px;width:240px;'>
+    <div id='gmap_canvas' style='height:300px;width:240px;'></div>
+        <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+                </div> 
+                    <a href='https://embedmaps.org/></a>
+                        <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=19e01c98eaea22fb0b02e1d69ce2868924b87c5b'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(37.7696425,-122.40234650000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(37.7696425,-122.40234650000002)});infowindow = new google.maps.InfoWindow({content:'<strong>SF-Bistro</strong><br>11 Division St.<br>11 Division St. San Francisco<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                    </div> 
     <p class="prices-vary"><i>*Prices may vary daily</i></p>
-               
+         
     </div>
 
 <!--                             top nav icon menu                    -->
@@ -222,25 +231,24 @@
                        <img src="http://i.imgur.com/SxMuaPa.jpg" alt="sandwhich" class="circles">
                        <p class="item">SOUP DU JOUR</p>
                        <p class="content line-height">Local Roast Vegetable, Garlic Crema, EVOO Crostini</p>
-<!--                       <p class="price-item">$ 5.00</p>-->
+
                    </div>
                    <div class="food">
                        <img src="http://i.imgur.com/p5ZKvJL.jpg" alt="sandwhich" class="circles">
                        <p class="item">MARKET SALAD</p>
                        <p class="content line-height">Organic Greens, Local Fruit, Honey Vinaigrette, House Buttermilk Cheese</p>
-<!--                       <p class="price-item">$ 5.00</p>-->
                    </div>
                    <div class="food">
                        <img src="http://i.imgur.com/e8CyPjg.jpg" alt="sandwhich" class="circles">
                        <p class="item">DUSTY BREAD PUDDING</p>
                        <p class="content line-height">DB Pieces Soaked in Almond Milk Custard, Seasonal Fresh and Dried Fruit, Straus Whip Cream</p>
-<!--                       <p class="price-item arriba">$ 5.00</p>-->
+
                    </div>
                    <div class="food">
                        <img src="http://i.imgur.com/AnaWiRt.jpg" alt="sandwhich" class="circles">
                        <p class="item">BUN DULCE</p>
                        <p class="content">Freshly baked TCHO chocolate filled doughnut</p>
-<!--                       <p class="price-item">$ 5.00</p>-->
+
                    </div>
                    <div class="food">
                        <img src="http://i.imgur.com/tPtwp4w.jpg" alt="sandwhich" class="circles">
