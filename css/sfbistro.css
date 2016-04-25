@@ -357,8 +357,11 @@ header {
     
 }
 
+#map{
+    text-align: center;
+}
 .prices-vary{
-      font-size: 24px;
+    font-size: 24px;
     text-align: center;
     margin: 0;
     padding: 0;
