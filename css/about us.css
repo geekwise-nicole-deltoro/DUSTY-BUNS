@@ -248,96 +248,58 @@ main{
     
 }
 
-/*  about us large logo  */
-.logo{
-    margin: 0 auto;
-    font-size: 3.5em;
-    color: white;
-    text-align: center;
-    font-weight: 700;
-    
-
-}
-.text > h1{
-    color: #fff;
-    text-align: center;
-    padding-top: 18rem;
-    font-size: .5em;
-    font-family: sans-serif;
-    
-}
-
-
-
-.first{
-    display: block;
-    margin: 0 auto;
-    padding: 4rem 0 0 0;
-    width: 100%;
-    height: 600px;
-    font-family: sans-serif;
-}
-
-.text_img{
-    display: block;
-    margin-right: 10%;
-    margin-left: 5%;
-    padding: 0;
-    width: 80%;
-    height: 90%;
-    overflow: hidden;
-    font-size: 1em;
-    line-height: 1.6em;
-}
-
-.text_img > img{
-    float: left;
-    margin: 0 3rem 0 0; 
-}
-
-.text_img > h1{
-    margin: 0;
-    padding: 0;
-    color: #bccf3d;
-    font-size: 3.6rem;
-    font-weight: 600;
-    line-height: 1.1;
-    font-family: sans-serif;
-}
-
-.side_wrap{
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: 480px;
-    background-color: #bccf3d;
-}
-
-
-
- h1{
-    text-align: center;
-    font-family: "Pacifico",sans-serif;
-    color: #fff;
-    margin-right: 3em;
-    font-size: 4.2rem;
-        
-}
-
-.green{
-    width: 100%;
-    height: 90vh;
-    background-color:#bccf3d;
+.about-topimg{
+    background-image: url("http://i.imgur.com/XRWj9Kz.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    float: left;
+    height: 70vh;
 }
-.white-content{
+.white-dusty{
     width: 100%;
-    height: auto;
-    padding: 0;
-    margin: 0;
+    font-size: 48px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: pacifico;
+    color: #fff;
+    padding-top: 190px;
 }
+.padding-top{
+    transform: translateY(230%);
+}
+.about-main{
+    width: 95%;
+    margin:auto;
+    padding: 20px;
+    
+}
+.photo{
+    width: 100%;
+    float: left;
+    
+    
+}
+.award-photo{
+    width: 50%;
+    float: left;
+    padding: 15px;
+}
+.our-text{
+    font-family: pacifico;
+    color:#bccf3d;
+    font-size: 38px;
+    margin: 0;
+    padding: 0;
+      
+}
+
+.mid-text{
+    font-size: 16px;
+    color: gray;
+    line-height: 2;  
+}
+
+
+
 
 .img-slider{
    width: 95%;
