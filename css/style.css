@@ -1,343 +1,595 @@
 html,body{
     margin: 0;
-    padding: 0;
-    font-size: 16px;
+    padding:0;
+    position: absolute;
+    top: -16px;
 }
-
-
 body{
+    margin: 0;
+    padding: 0;
     color: #525252;
     font-family: "muli",sans-serif;
     font-weight: 300;
-    width:100%;
     
 }
-
-.burger{
-    margin: 0;
-    padding: 0;
-    background-image: url("http://i.imgur.com/wA4E4RE.jpg");
-    background-size:100%;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    background-size: cover;
-    height: 100vh;
-}
-
-nav{
-    width: 80%;
-    margin: 0 auto;
-    padding: 25px;
-     
-}
-ul{
-    width: 100%;
-    margin:0;
-    padding: 0;
-    display: flex;
-}
-
-li{
-    width: 90%;
-    margin: 0 auto;
-    padding:0px;
-    display: inline-block;
-    list-style:none;
-    text-align: center;
-    text-transform: capitalize;
-    color: #fff;
-    font-size: 18px;
-    font-family: "muli";
-    font-weight: bold;
-    text-shadow: 2px 2px #000; 
-}
-
-.menu:hover{
-    background-color: #bccf3d;
-    padding: 5px;
-    border-radius: 4px;
-    height: 35px;
-}
-.logo-middle{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    padding-top: 150px;
-    font-size: 48px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #fff;
-    font-family:"muli";
-    position: sticky;
-    z-index: 2;
-
-}
-.dusty{
-    font-family:"pacifico";
-    font-size: 80px;
-    color: #ffc300;
-   
-   
-}
-.buns-li{
-    color: #fff;
-    text-decoration: none;
-    font-family: "muli", sans;
-    
-}
-
-.buns-li:hover{
-    background-color: #bccf3d;
-    padding: 15px;
-    border-radius: 4px;
-
-}
-
-#downward{
-    display:none;
-}
-.sf-li{
-    height: 125px;
-    background-color: #f5f5f5;
-    display: none;
-    width: 180px;
-    margin-top: 15px;
-    margin-left: 55px;
-
-}
-#downward:checked~.sf-li{
-    display: block;
-    border: 1px solid #fff;
-    
-}
-.bistro{
-    width: 95%;
-    height: 32px;
-    padding: 5px 6px 5px 5px;
-    text-align: center;
-}
-.bistro:hover{
-    background-color:#bccf3d;
-    color: #fff;
-    
-}
-
-.locations{
-    text-decoration: none;
-    color: black;
-    font-family: muli;
-    font-weight: 200;
-    font-size: 14px;
-    text-shadow: none;
-    
-    
-
-}
-.locations:hover{
-    padding: 5px;
-    color: #fff;
-    
-}
-#buns-2{
-    display: none;
-}
-#buns-2:checked~.catering{
-    display: block;
-    
-}
-
-.catering{
-    height: 150px;
-    background-color: #f5f5f5;
-    display: none;
-    width: 240px;
-    padding-left: 1px;
-    margin-top: 15px
-    
-}
-
-
-.bistro2{
-     width: 230px;
-    height: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: left;
-    padding-left: 10px
-}
-
-.bistro2:hover{
-    background-color: #bccf3d;
-}
-.middle-text{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 25px;
-}
-.yellow{
-    color: #ffc300;
-    text-transform: capitalize;
-    font-size: 48px;
-    font-weight: solid;
-    
-}
-
-.info{
-    font-size: 18px;
-    line-height: 2;
-}
-
-
 main{
     width:100%;
     height: auto;
     margin: 0;
     padding: 0;
-    height: 900px;
-    margin-top: 100px;
+    
+}
+html, body{
+    margin:0;
+    padding:0;
+    font-size:62.5%;
+    box-sizing:border-box;
     
 }
 
-.location{
-    width: 85%;
-    height: 50%;
-    margin: 0 auto;
-    padding: 0;
-    position: relative;
-    top:-95px;
-    
+  */
 
+a{
+    text-decoration: none;
+    color:inherit;
 }
-.top-left{
-    width: 50%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    float: left;
+
+
+
+#navbar{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    display: block;
 }
-.lg-img{
-    width: 50%;
-    height: 100%;
-    float: left
+
+#navbar > ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+    width: 70%;
+    display:inline-block;
+    position: absolute;
+    top:4rem;
+    left:20rem;
 }
-.salad{
-    width: 100%;
-    height: 100%;
-}
-.green{
-    width: 50%;
-    float: left;
-    height:100%;
-    background-color: #bccf3d;
+
+#navbar > ul > li{
+    display: inline-block;
+    float:left;
     text-align: center;
+}
 
+#navbar > ul > li:nth-child(1){
+    width:10%;
 }
-.fa{
-    padding-top: 10px;
+
+#navbar > ul > li:nth-child(2){
+    width:25%;
 }
-.font-awesome{
-    color: #fff;
-    font-size: 18px;
+
+#navbar > ul > li:nth-child(3){
+    width:17%;
+}
+
+#navbar > ul > li:nth-child(4){
+    width:15%;
+}
+
+#navbar > ul > li:nth-child(5){
+    width:18%;
+}
+
+#navbar > ul > li:nth-child(6){
+    width:15%;
+}
+
+#navbar > ul > li:nth-child(1) > a{
+    width:8rem;
+    height:6rem;
+    display: inline-block;
+}
+
+#navbar > ul > li:nth-child(2) > a{
+    width:17rem;
+    height: 6rem;
+    display: inline-block;
+}
+
+#navbar > ul > li:nth-child(3) > a{
+    width:11rem;
+    height: 6rem;
+    display: inline-block;
+}
+
+#navbar > ul > li:nth-child(4) > a{
+    width:10rem;
+    height: 6rem;
+    display: inline-block;
+}
+
+#navbar > ul > li:nth-child(5) > a{
+    width:12rem;
+    height: 6rem;
+    display: inline-block;
+}
+
+#navbar > ul > li:nth-child(6) > a{
+    width:10rem;
+    height: 6rem;
+    display: inline-block;
+}
+
+
+#navbar > ul > li > a{
+    text-decoration: none;
+    color:#ffffff;
     text-transform: capitalize;
+    font-family:"muli";
+    font-weight: 700;
+    font-size:1.6rem;
+    text-shadow:1px 1px 5px #000000;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transition:.5s;
+}
+
+/* dropdown for menu/location pages */
+
+#label_menu{
     text-decoration: none;
-    padding: 0;
-    margin:0; 
-    padding-top: 10px;
-
+    color:#ffffff;
+    text-transform: capitalize;
+    font-family:"muli";
+    font-weight: 700;
+    font-size:1.6rem;
+    text-shadow:1px 1px 5px #000000;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transition:.5s;
+    display: inline-block;
+    height: 6rem;
+    width:20rem;
 }
 
-.text-location{
-    font-size: 16px;
-    color: #fff; 
-    line-height: 1.5;
+#label_menu:hover{
+    background-color:#BCCF3D;
 }
-hr{
-    width: 15%;
-    color: #fff;
+
+#navbar > ul > li > a:hover{
+    background-color:#BCCF3D;
 }
-.tele{
-    color: grey;
-    font-size: 16px;
+
+.index_span_position{
+    position:relative;
+    top:2rem;
+}
+
+#menu_dropdown{
+    background-color:#ffffff;
+    width:18rem;
+    height: 14rem;
+    font-weight: 400;
+    color:#525252;
+    font-size:1.4rem;
+    margin:0 auto;
+    display: none;
+    position:relative;
+    top:1.5rem;
+    left:-3rem;
+    font-family: "muli";
+    z-index: 1;
+}
+
+#menu_dropdown p{
+    display: inline-block;
+    width:100%;
+    text-align: left;
+    height: calc(100%/3);
+    margin:0;
+    
+}
+
+#menu_dropdown p a{
+    display: block;
+    height: 100%;
+    width:100%;
+}
+
+.menu_p a:hover{
+    background-color:#BCCF3D;
+}
+
+#menu_dropdown p a span{
+    padding-left:2rem;
+    position:relative;
+    top:1.5rem;
+}
+
+#input_menu{
+    display: none;
+}
+
+#input_menu:checked + #menu_dropdown{
+    display: block;
+}
+
+/* dropdown for catering pages */
+
+#label_menu2{
     text-decoration: none;
+    color:#ffffff;
+    text-transform: capitalize;
+    font-family:"muli";
+    font-weight: 700;
+    font-size:1.6rem;
+    text-shadow:1px 1px 5px #000000;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transition:.5s;
+    display: inline-block;
+    height: 6rem;
+    width:12rem;
 }
-.tele:hover{
-    color: black;
-    text-decoration: underline;
+
+#label_menu2:hover{
+    background-color:#BCCF3D;
 }
-.top-right{
-   width: 50%;
+
+#navbar > ul > li > a:hover{
+    background-color:#BCCF3D;
+}
+
+.index_span_position{
+    position:relative;
+    top:2rem;
+}
+
+#catering_dropdown{
+    background-color:#ffffff;
+    width:28rem;
+    height: 14rem;
+    font-weight: 400;
+    color:#525252;
+    font-size:1.4rem;
+    margin:0 auto;
+    display: none;
+    position:relative;
+    top:1.5rem;
+    font-family: "muli";
+    z-index: 1;
+}
+
+#catering_dropdown p{
+    display: inline-block;
+    width:100%;
+    text-align: left;
+    height: calc(100%/3);
+    margin:0;
+    
+}
+
+#catering_dropdown p a{
+    display: block;
     height: 100%;
-    margin: 0;
-    padding: 0;
-    float: left;
+    width:100%;
 }
-.sm-info{
-    width: 50%;
-    height: 50%;
-    float: left;
-    margin: 0;
-    padding: 0;
+
+.menu_p a:hover{
+    background-color:#BCCF3D;
 }
-.orange{
-    background-color: #ffc300;
-    text-align: center;
+
+#catering_dropdown p a span{
+    padding-left:2rem;
+    position:relative;
+    top:1.5rem;
 }
-.pics-home{
-    width: 100%;
-    height: 100%;
+
+#input_menu2{
+    display: none;
+}
+
+#input_menu2:checked + #catering_dropdown{
+    display: block;
+    
 }
 
 
-.wood-img{
-    background-image: url("http://i.imgur.com/QpDhcuw.jpg");
+#label_section{
+    display: block;
+    background-image:url(http://i.imgur.com/zlwZhA7.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 800px;
-    
+    height: 100vh;
+    width: 100%;
 }
 
-.bottom-half{
-    width: 85%;
-    height: 50%;
-    margin: auto;
+#dustybuns_label{
+    width:50rem;
+    display: inline-block;
+    position: relative;
+    top:21rem;
+    height: 20rem;
+}
+
+#dustybuns_label p:nth-child(1){
+    color:#ffffff;
+    font-family: "pacifico";
+    text-transform: capitalize;
+    font-size:7.2rem;
+    padding:0;
+    margin:0;
+}
+
+#dustybuns_label p:nth-child(2){
+    color:#ffffff;
+    font-family: "muli";
+    text-transform: capitalize;
+    font-size:4.1rem;
+    padding:0;
+    margin:0;
+}
+/* nav background */
+.buns{
+    margin: 0;
     padding: 0;
-     position: relative;
-    top:-95px;
+    background-image: url(http://i.imgur.com/0DSzdj8.jpg);
+    background-attachment:cover;
+    background-repeat: no-repeat;
+    background-size:100%;     
+    height: 100vh;
+}
+
+
+
+
+/* text on burger img*/
+.dusty{
+    position: relative;
+    top:-400px;
+    text-align: center;
+    color: white;
+} 
+h1{
+     font-family: "Pacifico";
+    font-size: 9rem;
+}
+h3{
+    font-family: "Muli";
+    font-size:50px;
+    position: relative;
+    top:-50px;
+   
     
 }
 
-.bottom-left{
+
+/* welcome text & fork img */
+
+.welcome{
+    text-align: center;
+    padding: 0;
+}
+h2{
+    color: #FFC300;
+    font-size: 12em;
+     font-family: "Pacifico";
+    position: relative;
+    top:-300px;
+}
+
+/*    leaf logo*/
+.leaf{
+    position: relative;
+    top:-300px;
+}
+#info{
+    color: #525252;
+    text-align: center;
+    width: 80%;
+    line-height: 3rem;
+    font-size: 4rem;
+    position: relative;
+     top:-300px;
+    font-family: "muli";
+    font-size: 1.2rem;
+    margin-left: 100px;
+    
+    
+}
+/* nav background */
+.buns{
+    margin: 0;
+    padding: 0;
+    background-image: url(http://i.imgur.com/0DSzdj8.jpg);
+    background-attachment:cover;
+    background-repeat: no-repeat;
+    background-size:100%;     
+    height: 100vh;
+}
+
+/* boxes section */
+
+.wood{
+    display: block;
+    width: 100%;
+    background-image: url(http://i.imgur.com/auP5mlE.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
     margin: 0 auto;
     padding: 0;
-    float: left;
-    width: 50%;
-    height: 100%;
+    text-align: center;
+    
 }
-.bm-info{
-     width: 50%;
+
+
+/* section of boxes home page*/
+
+
+#boxes{
+    position: relative;
+    top: -150px;
+    width: 120rem;
+    display: inline-block;
+    height:1000px;
+    
+}
+/* section 1 */
+.left_box{
+    width: 50%;
     height: 50%;
     float: left;
-    margin: 0;
-    padding: 0;
 }
-.bottom-right{
-    margin: 0;
-    padding: 0;
-    float: left;
+.man_1{
     width: 50%;
     height: 100%;
+    float: left;
+    
 }
-/*social media css*/
-.contact-info{
-    width: 80%;
-    height: auto;
-    margin: auto;
+.address{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color:yellowgreen;
+    
+}
+/* section 2*/
+.right_box{
+    width: 50%;
+    height: 25%;
+    float: left;
+}
+.box_3{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: orange;
+}
+.box_4{
+    width: 50%;
+    height: 100%;
+    float:right;
+    
+}
+/* section 3*/
+.right_2{
+    width: 50%;
+    height: 25%;
+    float: left;
+}
+.box_5{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.box_6{
+    width: 50%;
+    height: 100%;
+    float:right;
+    background-color: orange;
+    
+}
+/*section4 */
+.left_2{
+    width: 50%;
+    height: 25%;
+    float: left;
+}
+.box_7{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color:orange;
+}
+.box_8{
+    width: 50%;
+    height: 100%;
+    float:right;
+    background-color:white;
+    
+}
+/* section 5 */
+.right_3{
+    width: 50%;
+    height: 25%;
+    float:
+    
+    
+}
+.box_9{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: white;
+}
+.box_10{
+    width: 50%;
+    height: 100%;
+    float:left;
+    background-color:orange;
+    
+}
+/* section 6*/
+.last_box{
+    width: 50%;
+    height: 50%;
     position: relative;
-    top: -120px;
+    top:-250px;
+    float: right;
 }
-.section-sm{
+.jeep{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: yellowgreen
+    
+}
+.box_11{
+    width: 50%;
+    height: 100%;
+    float:right;
+    background-color:white;
+    
+}
+/* lines for bistros */ 
+hr{
+    width: 100px;
+    
+}
+#bell_line{
+    position: relative;
+    top:40px;
+}
+/* fork & knife truck  fa */
+.icons{
+    font-size: 28px;
+    margin-top: 20px;
+    color: white;
+}
+/* telephone numbers */
+.tel{
+    text-align: center;
+    margin-left: 20px;
+    color: #525252;
+    margin: 0;
+    text-decoration: none;
+    font-size: 15px;
+}
+.san{
+    clear:inherit;
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+    font-size: 15px;
+}
+/* social media and contact info*/
+.contact{
+    width: 80%;
+    margin:  0 auto;
+    padding: 0;
+
+}
+.sec{
     width: 33%;
     float: left;
     margin: auto;
@@ -345,1204 +597,81 @@ hr{
     font-size: 18px;
     text-transform: capitalize;
     font-weight: 550;
-    padding-bottom: 10px;
 }
-.social-media{
+.social{
     font-size: 16px;
     color: grey;
-    padding:0;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
 }
-.social-media:hover{
+.social:hover{
+    clear: inherit;
+    background-color: none;
     color: black;
 }
-/*need to put in detail*/
-.yellow-media{
-    color: #ffc300;
-    font-size: 24px;
-    text-transform: uppercase;
-}
-.grey-line{
-    color: lightgray;
-    width: 10%;
-}
-.home-footer{
-    float: left;
-    background-image: url("http://i.imgur.com/7qJwgPk.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-size: cover;
-    height: 30vh;
-    opacity: .9;
-    background-color:grey;
-    width: 100%;
-    background-blend-mode: multiply;
-   
-}
-.main-footer{
-    width: 100%;
-    margin: auto;
-    padding: 0;  
-}
-.left-side{
-    width: 25%;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    float: left;
-    display: inline-block;
-    padding-top: 50px;
-}
-.dusty-small{
-    color: #fff;
-    font-size: 36px;
-    font-family: "pacifico";
-    text-transform: capitalize;
-    font-weight: 600;
-    margin: 0;
-    padding: 0;
-    
-    
-}
-.copyright{
-    color:#ffc300;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    font-weight: 600;
-    font-family: "muli";
-    
-}
-
-.footer-font{
-    font-size: 26px;
-    color: #fff;
-    float: right;
-    font-family: "muli";
-    font-weight: bold;
-    padding-top: 80px;
-    width: 60%;
-    text-align: center;
-    
-}
-.menu{
-    width: 100%;
-    margin-bottom: px;
-}
-.order-form{
-    color: grey;
-    text-decoration: none;
-}
-.large-font{
-    font-size: 36px;
-    letter-spacing: 1px;
-    font-weight: 700;
-    line-height: 1.8;
-}
-.sando{
-    line-height:1.5;
-}
-.grey-bistro{
-    font-size: 16px;
-}
-.push-down{
-    padding-top: 10px;
-}
-.text-decor{
-    text-decoration: none;
-}
-/*font awesome and dropdown*/
-.bars{
-    font-size: 28px;
-    color: #fff;
-    float: right;
-    margin-right: 20px;
-   
-}
-.bar-label{
-   visibility: hidden; 
-}
-#main-drop{
-    visibility: hidden;
-}
-
-@media only screen and (max-width:1300px){
-    nav{
-        width: 95%
-    }
-   
-}
-@media only screen and (max-width:1150px){
-      nav{
-        width: 94%;
-        background-color: #bccf3d;
-        padding-top: 85px;
-        margin-top: -10px;
-       
-    }
-    ul{
-        display: block;
-        width: 100%;
-        
-    }
-    li{
-        font-size: 14px;
-        padding: 10px;
-        
-    }
-    .border-top{
-        border-top: 1px solid black;
-    }
-    .bar-label{
-       visibility: visible;
-    }
-    nav{
-        display: none;
-    }
-    #main-drop:checked~nav{
-        display: block;
-    }
-    .buns-li:hover{
-        padding: 5px;
-    }
-    .menu-buns{
-        margin-right: 105px;
-    }
-    
-    
-}
-/*need to target menu/location */
-@media only screen and (max-width:950px){
-    
-   
-}
-@media only screen and (max-width:900px){
-    .burger{
-        width: 100%;
-    }
-    
-
-    .logo-middle{
-       display: table-caption;
-    }
-
-}
-@media only screen and (max-width:795px){
-    nav{
-       width: 90%;
-    }
-    
-    ul{
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-    li{
-        font-size: 14px;
-        
-    }
-    .menu-buns:hover{
-        padding: 0;
-        padding-top: 15px;
-        padding-bottom:15px;
-      
-    }
-    .menu{
-        width: 80%;
-        display: block;
-        margin: auto;
-    }
-    .middle-text{
-       padding-top: 0;
-        padding-bottom: 0;
-    }
-    .bistro-location{
-        width: 90%;
-    }
-    .bottom-half{
-        width:90%;
-    }
-    .wood-img{
-       padding-bottom: 400px;
-        height: 100%;
-        background-size: cover;
-    }
-    .top-left{
-        width: 100%;
-    }
-    .top-right{
-        width: 100%;
-    }
-    .bottom-left{
-        width: 100%;
-    }
-    .bottom-right{
-        width: 100%;
-    }
-    .contact-info{
-        top: 0;
-        
-    }
-   
-}
-@media only screen and (max-width:710px){
-     .bistro-location{
-        width: 100%;
-    }
-    .bottom-half{
-        width:100%;
-    }
-}
-@media only screen and (max-width:650px){
-    nav{
-/*
-        width: 100%;
-        background-color: #bccf3d;
-        padding-top: 85px;
-        margin-top: -10px; 
-*/
-       
-    }
-    ul{
-        display: block;
-        width: 100%;
-        
-    }
-    .sf-li{
-        margin-left: 235px;
-    }
-    
-    li{
-        clear: both;
-        display: block;
-/*
-        padding: 10px;
-        
-*/
-    }
-    .menu-buns{
-        margin-left: 90px;
-    }
-    
-    .catering{
-        margin-left: 180px;
-    }
-    .logo-middle{
-        font-size: 38px;
-        padding-top: 10;
-    }
-    .dusty{
-        font-size: 48px;
-    }
-     .section-sm{
-        width: 100%; 
-    }
-    
-    .yellow-media{
-        font-size: 18px;
-    }
-    .social-media{
-        font-size: 12px;
-        position: relative;
-        top: -35px;
-    }
-    .home-footer{
-        height: 100%
-    }
-    .main-footer{
-        height: 250px;
-        padding-top: 15px
-    }
-    .left-side{
-       width: 100%;
-        padding-top: 15px;
-        text-align:left;
-       
-        padding-top: 35px;
-    }
-    .dusty-small{
-        font-size: 28px;
-    }
-    .copyright{
-        font-size: 13px;
-        font-weight: 300;
-    }
-    .footer-font{
-        width: 100%;
-        padding-top: 55px;
-        font-size: 13px;
-    }
-}
-@media only screen and (max-width:500px){
-    nav{
-       width: 88%;
-        background-color: #bccf3d;
-        padding-top: 85px;
-        margin-top: -10px; 
-    }
-    ul{
-        
-        display: block;
-    }
-    li{
-        font-size: 14px;
-        display: block;
-        width: 90%;
-        clear: both;
-       padding: 15px;
-        
-    }
-    .border-top{
-        width: 98%;
-        border-top: solid 1px black;
-    }
-    .sf-li{
-        margin: 0;
-        margin-top: 15px;
-        margin-left: 25px;
-    }
-    .catering{
-        margin: 0;
-        margin-top: 15px;
-    }
-    .middle-text{
-        margin-top: 100px;
-    }
-    .logo-middle{
-        font-size: 22px;
-     
-    }
-    .dusty{
-        font-size: 32px;
-    }
-    .bistro-location{
-        width: 100%;
-    }
-    .bottom-half{
-        width: 100%;
-    }
-    .menu-buns{
-        margin-right:  15px;
-    }
-        
-    
-
-}
-@media only screen and (max-width:320px){
-    .burger{
-        width: 100%;
-    }
-    nav{
-       width: 80%; 
-    }
-    .border-top{
-        width:95%;
-    }
-    .menu{
-        width: 90%;
-    }
-    .menu-buns{
-        margin: 5px;
-    }
-    main{
-        width: 100%;
-    }
-    .bistro-location{
-        width: 100%;
-    }
-    .top-left{
-        width: 100%;
-    }
-    .lg-img{
-        width: 50%;
-        
-    }
-    .salad{
-        width: 100%;
-    }
-    .top-right{
-        width: 100%;
-    }
-    .pics-home{
-        width: 100%;
-       
-    }
-   
-   
-   html,body{
-    margin: 0;
-    padding: 0;
-    font-size: 12px;
-}
-body{
+.fa_2{
+    clear:inherit;
+    font-size: 20px;
     color: #525252;
-    font-family: "muli",sans-serif;
-    font-weight: 300;
-    width:100%;
-    
-}
-.burger{
-    margin: 0;
-    padding: 0;
-    background-image: url("http://i.imgur.com/wA4E4RE.jpg");
-    background-size:100%;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    background-size: cover;
-    height: 100vh;
-}
-/*
-header{
-    margin: 0 auto;
-    padding: 0;
-    height: auto;
-}
-*/
-nav{
-    width: 80%;
-    margin: 0 auto;
-    padding: 25px;
-     
-}
-ul{
-    width: 100%;
-    margin:0;
-    padding: 0;
-    display: flex;
-}
-li{
-    width: 90%;
-    margin: 0 auto;
-    padding:0px;
-    display: inline-block;
-    list-style:none;
-    text-align: center;
-    text-transform: capitalize;
-    color: #fff;
-    font-size: 18px;
-    font-family: "muli";
-    font-weight: bold;
-    text-shadow: 2px 2px #000; 
-}
-/*
-li:hover{
-   background-color: #bccf3d;
-    border-radius: 5px;
-}
-*/
-.menu:hover{
-    background-color: #bccf3d;
-    padding: 5px;
-    border-radius: 4px;
-    height: 35px;
-}
-.logo-middle{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    padding-top: 150px;
-    font-size: 48px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #fff;
-    font-family:"muli";
-    position: sticky;
-    z-index: 2;
-
-}
-.dusty{
-    font-family:"pacifico";
-    font-size: 80px;
-   
-   
-}
-.buns-li{
-    color: #fff;
-    text-decoration: none;
-    font-family: "muli", sans;
-    
-}
-/*font colors and fonts*/
-.buns-li:hover{
-    background-color: #bccf3d;
-    padding: 15px;
-    border-radius: 4px;
-
-}
-
-/*dropdown and li*/
-#downward{
-    display:none;
-}
-.sf-li{
-    height: 125px;
-    background-color: #f5f5f5;
-    display: none;
-    width: 180px;
-    margin-top: 15px;
-    margin-left: 55px;
-
-}
-#downward:checked~.sf-li{
-    display: block;
-    border: 1px solid #fff;
-    
-}
-.bistro{
-    width: 95%;
-    height: 32px;
-    padding: 5px 6px 5px 5px;
-    text-align: center;
-}
-.bistro:hover{
-    background-color:#bccf3d;
-    color: #fff;
-    
-}
-
-.locations{
-    text-decoration: none;
-    color: black;
-    font-family: muli;
-    font-weight: 200;
-    font-size: 14px;
-    text-shadow: none;
-    
-    
-
-}
-.locations:hover{
-    padding: 5px;
-    color: #fff;
-    
-}
-#buns-2{
-    display: none;
-}
-#buns-2:checked~.catering{
-    display: block;
-    
-}
-
-.catering{
-    height: 150px;
-    background-color: #f5f5f5;
-    display: none;
-    width: 240px;
-    padding-left: 1px;
-    margin-top: 15px
-    
 }
 
 
-.bistro2{
-     width: 230px;
-    height: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: left;
-    padding-left: 10px
-}
-
-.bistro2:hover{
-    background-color: #bccf3d;
-}
-.middle-text{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 25px;
-}
+/*need to put in detail*/
 .yellow{
     color: #ffc300;
-    text-transform: capitalize;
-    font-size: 48px;
-    font-weight: solid;
-    
-}
-
-.info{
-    font-size: 18px;
-    line-height: 2;
-}
-main{
-    width:100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    height: 900px;
-    margin-top: 100px;
-    
-}
-.bistro-location{
-    width: 85%;
-    height: 50%;
-    margin: 0 auto;
-    padding: 0;
-    position: relative;
-    top:-95px;
-    
-
-}
-.top-left{
-    width: 50%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    float: left;
-}
-.lg-img{
-    width: 50%;
-    height: 100%;
-    float: left
-}
-.salad{
-    width: 100%;
-    height: 100%;
-}
-.green{
-    width: 50%;
-    float: left;
-    height:100%;
-    background-color: #bccf3d;
-    text-align: center;
-
-}
-.fa{
-    padding-top: 10px;
-}
-.font-awesome{
-    color: #fff;
-    font-size: 18px;
-    text-transform: capitalize;
-    text-decoration: none;
-    padding: 0;
-    margin:0; 
-    padding-top: 10px;
-
-}
-
-.text-location{
-    font-size: 16px;
-    color: #fff; 
-    line-height: 1.5;
-}
-hr{
-    width: 15%;
-    color: #fff;
-}
-.tele{
-    color: grey;
-    font-size: 16px;
-    text-decoration: none;
-}
-.tele:hover{
-    color: black;
-    text-decoration: underline;
-}
-.top-right{
-   width: 50%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    float: left;
-}
-.sm-info{
-    width: 50%;
-    height: 50%;
-    float: left;
-    margin: 0;
-    padding: 0;
-}
-.orange{
-    background-color: #ffc300;
-    text-align: center;
-}
-.pics-home{
-    width: 100%;
-    height: 100%;
-}
-
-
-.wood-img{
-    background-image: url("http://i.imgur.com/QpDhcuw.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 800px;
-    
-}
-
-.bottom-half{
-    width: 85%;
-    height: 50%;
-    margin: auto;
-    padding: 0;
-     position: relative;
-    top:-95px;
-    
-}
-
-.bottom-left{
-    margin: 0 auto;
-    padding: 0;
-    float: left;
-    width: 50%;
-    height: 100%;
-}
-.bm-info{
-     width: 50%;
-    height: 50%;
-    float: left;
-    margin: 0;
-    padding: 0;
-}
-.bottom-right{
-    margin: 0;
-    padding: 0;
-    float: left;
-    width: 50%;
-    height: 100%;
-}
-/*social media css*/
-.contact-info{
-    width: 80%;
-    height: auto;
-    margin: auto;
-    position: relative;
-    top: -120px;
-}
-.section-sm{
-    width: 33%;
-    float: left;
-    margin: auto;
-    text-align: center;
-    font-size: 18px;
-    text-transform: capitalize;
-    font-weight: 550;
-    padding-bottom: 10px;
-}
-.social-media{
-    font-size: 16px;
-    color: grey;
-    padding:0;
-    text-align: center;
-    text-decoration: none;
-}
-.social-media:hover{
-    color: black;
-}
-/*need to put in detail*/
-.yellow-media{
-    color: #ffc300;
     font-size: 24px;
     text-transform: uppercase;
 }
-.grey-line{
+.grey{
     color: lightgray;
     width: 10%;
 }
-.home-footer{
+.lettuce{
     float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
     background-image: url("http://i.imgur.com/7qJwgPk.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
     background-size: cover;
-    height: 30vh;
-    opacity: .9;
-    background-color:grey;
-    width: 100%;
-    background-blend-mode: multiply;
-   
+    height:30vh;
 }
-.main-footer{
-    width: 100%;
+.last{
+    width: 80%;
     margin: auto;
-    padding: 0;  
-}
-.left-side{
-    width: 25%;
-    text-align: center;
     padding: 0;
-    margin: 0;
-    float: left;
-    display: inline-block;
-    padding-top: 50px;
+    height: auto;
+    
 }
-.dusty-small{
+.reserved{
     color: #fff;
-    font-size: 36px;
+    text-shadow: 2px 2px 4px grey; 
+    font-size: 32px;
     font-family: "pacifico";
     text-transform: capitalize;
-    font-weight: 600;
-    margin: 0;
-    padding: 0;
-    
-    
+    padding: 15px;
+    float: left;
 }
 .copyright{
-    color:#ffc300;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    font-weight: 600;
-    font-family: "muli";
-    
+    color: yellow;
+    font-size: 18px;
+    width: 25%;
+    position: relative;
+    top:-35px;
+    left: -25px;
+    clear: both;
+    text-transform: capitalize;
+    padding: 20px;
+    float: left;
 }
-
-.footer-font{
-    font-size: 26px;
+.no{
+     text-shadow: 2px 2px 4px black; 
+    font-size: 24px;
     color: #fff;
     float: right;
     font-family: "muli";
-    font-weight: bold;
-    padding-top: 80px;
-    width: 60%;
-    text-align: center;
     
-}
-.menu{
-    width: 100%;
-    margin-bottom: px;
-}
-.order-form{
-    color: grey;
-    text-decoration: none;
-}
-.large-font{
-    font-size: 36px;
-    letter-spacing: 1px;
-    font-weight: 700;
-    line-height: 1.8;
-}
-.sando{
-    line-height:1.5;
-}
-.grey-bistro{
-    font-size: 16px;
-}
-.push-down{
-    padding-top: 10px;
-}
-.text-decor{
-    text-decoration: none;
-}
-/*font awesome and dropdown*/
-.bars{
-    font-size: 28px;
-    color: #fff;
-    float: right;
-    margin-right: 20px;
-   
-}
-.bar-label{
-   visibility: hidden; 
-}
-#main-drop{
-    visibility: hidden;
 }
 
-@media only screen and (max-width:1300px){
-    nav{
-        width: 95%
-    }
-   
-}
-@media only screen and (max-width:1150px){
-      nav{
-        width: 94%;
-        background-color: #bccf3d;
-        padding-top: 85px;
-        margin-top: -10px;
-       
-    }
-    ul{
-        display: block;
-        width: 100%;
-        
-    }
-    li{
-        font-size: 14px;
-        padding: 10px;
-        
-    }
-    .border-top{
-        border-top: 1px solid black;
-    }
-    .bar-label{
-       visibility: visible;
-    }
-    nav{
-        display: none;
-    }
-    #main-drop:checked~nav{
-        display: block;
-    }
-    .buns-li:hover{
-        padding: 5px;
-    }
-    .menu-buns{
-        margin-right: 105px;
-    }
-    
-    
-}
-/*need to target menu/location */
-@media only screen and (max-width:950px){
-    
-   
-}
-@media only screen and (max-width:900px){
-    .burger{
-        width: 100%;
-    }
-    
-
-    .logo-middle{
-       display: table-caption;
-    }
-
-}
-@media only screen and (max-width:795px){
-    nav{
-       width: 90%;
-    }
-    
-    ul{
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-    li{
-        font-size: 14px;
-        
-    }
-    .menu-buns:hover{
-        padding: 0;
-        padding-top: 15px;
-        padding-bottom:15px;
-      
-    }
-    .menu{
-        width: 80%;
-        display: block;
-        margin: auto;
-    }
-    .middle-text{
-       padding-top: 0;
-        padding-bottom: 0;
-    }
-    .bistro-location{
-        width: 90%;
-    }
-    .bottom-half{
-        width:90%;
-    }
-    .wood-img{
-       padding-bottom: 400px;
-        height: 100%;
-        background-size: cover;
-    }
-    .top-left{
-        width: 100%;
-    }
-    .top-right{
-        width: 100%;
-    }
-    .bottom-left{
-        width: 100%;
-    }
-    .bottom-right{
-        width: 100%;
-    }
-    .contact-info{
-        top: 0;
-        
-    }
-   
-}
-@media only screen and (max-width:710px){
-     .bistro-location{
-        width: 100%;
-    }
-    .bottom-half{
-        width:100%;
-    }
-}
-@media only screen and (max-width:650px){
-    nav{
-/*
-        width: 100%;
-        background-color: #bccf3d;
-        padding-top: 85px;
-        margin-top: -10px; 
-*/
-       
-    }
-    ul{
-        display: block;
-        width: 100%;
-        
-    }
-    .sf-li{
-        margin-left: 235px;
-    }
-    
-    li{
-        clear: both;
-        display: block;
-/*
-        padding: 10px;
-        
-*/
-    }
-    .menu-buns{
-        margin-left: 90px;
-    }
-    
-    .catering{
-        margin-left: 180px;
-    }
-    .logo-middle{
-        font-size: 38px;
-        padding-top: 10;
-    }
-    .dusty{
-        font-size: 48px;
-    }
-     .section-sm{
-        width: 100%; 
-    }
-    
-    .yellow-media{
-        font-size: 18px;
-    }
-    .social-media{
-        font-size: 12px;
-        position: relative;
-        top: -35px;
-    }
-    .home-footer{
-        height: 100%
-    }
-    .main-footer{
-        height: 250px;
-        padding-top: 15px
-    }
-    .left-side{
-       width: 100%;
-        padding-top: 15px;
-        text-align:left;
-       
-        padding-top: 35px;
-    }
-    .dusty-small{
-        font-size: 28px;
-    }
-    .copyright{
-        font-size: 13px;
-        font-weight: 300;
-    }
-    .footer-font{
-        width: 100%;
-        padding-top: 55px;
-        font-size: 13px;
-    }
-}
-@media only screen and (max-width:500px){
-    nav{
-       width: 88%;
-        background-color: #bccf3d;
-        padding-top: 85px;
-        margin-top: -10px; 
-    }
-    ul{
-        
-        display: block;
-    }
-    li{
-        font-size: 14px;
-        display: block;
-        width: 90%;
-        clear: both;
-       padding: 15px;
-        
-    }
-    .border-top{
-        width: 98%;
-        border-top: solid 1px black;
-    }
-    .sf-li{
-        margin: 0;
-        margin-top: 15px;
-        margin-left: 25px;
-    }
-    .catering{
-        margin: 0;
-        margin-top: 15px;
-    }
-    .middle-text{
-        margin-top: 100px;
-    }
-    .logo-middle{
-        font-size: 22px;
-     
-    }
-    .dusty{
-        font-size: 32px;
-    }
-    .bistro-location{
-        width: 100%;
-    }
-    .bottom-half{
-        width: 100%;
-    }
-    .menu-buns{
-        margin-right:  15px;
-    }
-        
-    
-
-}
-@media only screen and (max-width:320px){
-    .burger{
-        width: 100%;
-    }
-    nav{
-       width: 80%; 
-    }
-    .border-top{
-        width:95%;
-    }
-    .menu{
-        width: 90%;
-    }
-    .menu-buns{
-        margin: 5px;
-    }
-    main{
-        width: 100%;
-    }
-    .bistro-location{
-        width: 100%;
-    }
-    .top-left{
-        width: 100%;
-    }
-    .lg-img{
-        width: 50%;
-        
-    }
-    .salad{
-        width: 100%;
-    }
-    .top-right{
-        width: 100%;
-    }
-    .pics-home{
-        width: 100%;
-       
-    }
-   }
-   

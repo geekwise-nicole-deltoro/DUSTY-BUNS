@@ -1,0 +1,1310 @@
+html,body{
+    margin: 0;
+    padding:0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: #525252;
+    font-family: "muli",sans-serif;
+    font-weight: 300;
+}
+/* sub menu and dropmenu */
+#sub{
+    display:none;
+}
+.drops{
+    list-style:none;
+    display: none;
+}
+#sub:checked~.drops{
+    display: block;
+  
+}
+header{
+    z-index: 1;
+}
+.nav ul {
+    position: fixed;
+   
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+width: 100%;
+     background-color: white;
+}
+
+.nav li {
+ text-align: center;
+  font-size:15px;
+  line-height: 50px;
+  margin: 0;
+ 
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding-left: 15px;
+ 
+  transition: .3s;
+}
+
+.nav li ul li a:hover {
+  background-color: yellowgreen;
+}
+
+.nav a.active {
+  background-color: #aaa;
+  color: white;
+  cursor: default;
+}
+
+/* Sub Menus */
+.nav li li {
+    text-align: left;
+  font-size: .7em;
+}
+
+  .nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+
+  .nav li:hover ul {
+    display: block;
+  }
+
+  .nav li ul li {
+    display: block;
+  }
+}
+
+/*dropdown for catering*/
+.catering{
+    display: none;
+}
+#buns-2{ 
+    display: none;
+}
+#buns-2:checked~.catering{
+    display: block;
+    list-style: none;
+}
+
+
+#toggle1:checked+.drop{
+    display: block;
+
+}
+
+#sub:checked+#drop_1{
+ display: block;
+}
+#label_1{
+    position: absolute;
+    
+}
+/*navbar */
+
+.white_nav{
+    display: block;
+    background-color:#fff;
+    
+    margin-top:0;
+    width: 100%;
+    height: 2rem;
+    
+}
+.sec_nav{
+    
+    background-color: white;
+    display:inline-block;
+    width:100%;
+    
+    text-align:left;
+    height: auto;
+    
+    flex-wrap: wrap;
+    
+}
+
+ .white_li{
+    
+    text-transform: capitalize;
+    display:inline-block;
+     font-weight: 700;
+    font-family: "muli";
+    width:160px;
+    text-align: center;
+    letter-spacing: 1px;
+      
+}
+.white_li> a{
+    text-decoration: none;
+    color: black;
+}
+.white_li> a:hover{
+    color: #BCCF3D;
+}
+.logo_nav{
+    display: inline-block;
+    float: left;
+    font-family:"pacifico";
+    margin:0;
+    text-align: center;
+    width:15%;
+    color: black;
+    font-size: 30px;
+}
+.logo_nav a:hover{
+    color: #BCCF3D;
+}
+/* contact us line */
+.yellow_contact{
+    font-family: "Pacifico";
+    font-size: 5rem;
+    color: #ffc300;
+    text-align: center;
+}
+.google{
+    background-image: url(http://i.imgur.com/KSisrWp.png);
+    background-attachment: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+/* social media and contact info*/
+.contact{
+    width: 80%;
+    margin:  0 auto;
+    padding: 0;
+}
+
+.sec{
+    width: 33%;
+    float: left;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 550;
+}
+.social{
+    font-size: 16px;
+    color: grey;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.social:hover{
+    clear: inherit;
+    background-color: none;
+    color: black;
+}
+.fa_2{
+    font-size: 20px;
+    color: #525252;
+}
+
+
+/*need to put in detail*/
+.yellow{
+    color: #ffc300;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.grey{
+    color: lightgray;
+    width: 10%;
+}
+.lettuce{
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("http://i.imgur.com/7qJwgPk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:30vh;
+    top:50px;
+    position:relative;
+}
+.last{
+    
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    height: auto;
+    
+}
+.reserved{
+    color: #fff;
+    text-shadow: 2px 2px 4px grey; 
+    font-size: 32px;
+    font-family: "pacifico";
+    text-transform: capitalize;
+    padding: 15px;
+    float: left;
+}
+.copyright{
+    color: yellow;
+    font-size: 18px;
+    width: 25%;
+    position: relative;
+    top:-35px;
+    left: -25px;
+    clear: both;
+    text-transform: capitalize;
+    padding: 20px;
+    float: left;
+}
+.no{
+     text-shadow: 2px 2px 4px black; 
+    font-size: 24px;
+    color: #fff;
+    float: right; 
+    font-family: "muli";
+    
+}
+/* start careers page*/
+.green_careers{
+    font-family: "Pacifico";
+    font-size: 5rem;
+    position: relative;
+    top:160px;
+    color: #BCCF3D;
+    text-align: center;
+}
+h5{
+    text-align: center;
+    position: relative;
+    top:100px;
+    color: white;
+    letter-spacing: .3px;
+    text-shadow: 8px 4px 6px 8px black;
+    font-size: 15px;
+}
+.logo_carees{
+    background-image: url(http://i.imgur.com/2lYJQog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.main_green{
+   margin: 20px;
+}
+.green_div{
+    width:75%;
+    display: inline-block;
+    float:left;
+}
+
+.green_div p{
+    width:97%;
+}
+
+.paragraph{
+    line-height: 3.5rem;
+    padding-top:2rem
+}
+
+.skills{
+    font-weight: 500;
+    font-size: 30px;
+    color:#BCCF3D;
+}
+
+#careers_lastline{
+    padding-top:3rem;
+}
+
+#careers_rightdiv{
+    width:25%;
+    display: inline-block;
+}
+
+#careers_rightdiv p{
+    width:90%;
+    margin-left:1.5rem;
+}
+
+.careers_cook{
+    color:#BCCF3D;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "pacifico";
+    margin:0;
+}
+a{
+    color: #525252;
+    text-decoration: none;
+}
+.lines{
+    border-bottom: 1px solid #BCCF3D;
+    padding-top:1.5rem;
+}
+/* end of careers page */
+
+/* start of about us page */
+.about_logo{
+    background-image: url(http://i.imgur.com/LYzriJV.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.white_about{
+    position: absolute;
+    font-family: "Pacifico";
+    font-size: 5rem;
+    text-align: center;
+    color: #fff;
+    
+}
+/* about pic mid */
+.story{
+    margin-top: 30px;
+    margin-left: 20px;
+    width:95%;
+    display: inline-block;
+    float:left;
+}
+.story>img{
+     width:50%;
+    display: inline-block;
+    float: left;
+    margin-right:20px;
+}
+    
+
+.our{
+    font-weight: bold;
+    font-size: 30px;
+    color:#BCCF3D;
+    width: 35%;
+    display: inline;
+}
+.text{
+    line-height: 2rem;
+    padding-top:20px;
+    
+}
+/*greet-text class in careers and left text*/
+#press{
+    position:relative;
+    top:-10px;
+}
+.green-bg{
+    width: 100%;
+    margin-top: 30px;
+    height: 90vh;
+    background-color:#bccf3d;
+    background-size: cover;
+    float: left;
+}
+.white-dusty{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.img-slider{
+   width: 95%;
+    margin: auto;
+}
+.slider{
+   width: 30%;
+    float: left; 
+    background-color: #fff;
+    height: 450px;
+
+}
+.one{
+    margin-right: 15px;
+}
+.meal-photos{
+    width: 100%;
+    padding-bottom: 25px;
+}
+.padding{
+    padding-bottom: 80px;
+}
+.meals{
+    color: #ffc300;
+    text-decoration: none;
+    font-size: 22px;
+   
+}
+.meals:hover{
+    color:black;
+}
+.margin-right{
+    padding-left: 15px;
+}
+
+/* end of about page */
+
+/* start of fresno lunch box /catering tab 2 */
+.black_box{
+    color: black;
+    font-family: "pacifico";
+    font-size: 68px;
+    text-align: center;
+}
+
+.grey_box{
+    text-align: center;
+}
+.names{
+    margin-left: 300px;
+}
+.textbox { 
+    margin-left: 300px;
+    border: 1px solid #999; 
+    outline:0; 
+    height:30px; 
+    width: 60%; 
+  } 
+.red{
+    color: red;
+}
+.picks{
+    font-size: 35px;
+}
+.add{
+    margin-left:4px;
+    height: 20px;
+
+}
+#button{
+    margin-left: 300px;
+    background-color: #ffc300;
+    border: 1px solid #ffc300;
+    border-radius: 4px;
+    color: white;
+    font-family: "Muli", serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 15px 25px;
+    text-transform: uppercase;
+}
+#button:hover{
+    background-color: black;
+    color: white;
+}
+/* start of special events page*/
+
+.special{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:210vh;
+    background-image: url(http://i.imgur.com/mCClfJ9.jpg);
+}
+
+
+.yellow-top{
+    margin: 0;
+    padding: 0;
+    font-family: "pacifico";
+    color:#ffc300;
+    font-size: 72px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+.white-special{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.special-img{
+    width: 85%;
+    margin: auto;
+    padding-top:50px;
+}
+.left-special{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin: 5px;
+    
+}
+
+.special-text{
+    font-size: 16px;
+    color: #fff;
+    line-height: 2;
+    
+}
+.form{
+    width: 40%;
+    float: right;  
+}
+.form>input{
+    background-color: transparent;
+    height: 50px;
+    border: solid 1px #ccc;
+    color: #fff;
+    font-size: 16px;
+    line-height: 2;
+    padding: 10p 15px;
+    border-radius: 3px;
+    
+}
+.full_name{
+    width: 420px;
+}
+
+
+.phone{
+    
+    width: 35%;
+    margin-top: 20px;
+    padding-left: 50px;
+    
+}
+.white-forms{
+    float: left;
+    width: 40%;
+    margin: 17px;
+    
+    
+}
+.left-location{
+    clear: both;
+}
+.date{
+    font-size: 16px;
+    color: #fff;
+
+}
+.solid-white{
+     background-color: transparent;
+    height: 50px;
+    border: solid 1px #ccc;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 3px;
+    width: 100%;
+
+}
+option{
+    color: black;
+}
+.float-left{
+    float: left;
+    padding-top: 55px;
+    padding-left: 15px;
+}
+.bottom-form{
+    width: 45%;
+    float: right;
+}
+.service-time{
+    width: 70%;
+    margin: auto;
+    font-size:18px; 
+    color: #fff;
+    padding: 15px;
+}
+.bar-service{
+    width: 70%;
+    margin: auto;
+    display: block;
+    height: 50px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    border: solid 1px #ccc;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.message{
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+    
+}
+textarea{
+    font-family: mulil, sans-serif;
+    font-size: 16px;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    background-color: transparent;
+    
+}
+button{
+    margin: auto 0;
+    display: block;
+    padding: 15px;
+    text-transform: uppercase;
+    background-color: #ffc300;
+    font-family: muli;
+    font-weight: bold;
+    margin-top: 10px;
+    border-style: none;
+}
+.yellow-button{
+     color: #fff;
+    text-decoration: none;
+}
+button:hover{
+    background-color: black;
+}
+
+.cash-main{
+    background-image: url("http://i.imgur.com/GoGgHhx.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 80vh;
+    
+}
+.line-gn{
+    border-bottom: #bccf3d solid 2px;
+}
+/*
+.cashier-line{
+    float: left;
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    margin-left: 10px;
+    
+    
+}
+*/
+/*fresno box css */
+
+
+
+.about_1{
+    position: relative;
+    top:200px;
+    text-align: center;
+    
+}
+
+.fresno_b{
+    position: relative;
+    top: 0px;
+}
+.lunch-box{
+    width: 90%;
+    margin: 0;
+    padding-top: 25px;
+}
+.fresno-form{
+    width: 100%;
+    font-size: 62px;
+    font-family: pacifico;
+    text-transform: capitalize;
+    margin: auto;
+    text-align: center;
+}
+.form-text{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+}
+.marked{
+    display: inline-block;
+    width: 60%;
+    margin:0 auto;
+    padding-left:255px;
+    padding-top: 15px
+}
+.red{
+    color: red;
+    font-size: 18px;
+   
+}
+.contact-form{
+    width: 60%;
+    margin: auto;
+    padding-top: 25px;
+    
+}
+.con-info{
+    font-size: 48px;
+    text-transform: capitalize;
+}
+.width{
+    width: 100%;
+    
+}
+.data{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.jane{
+    width: 100%;
+    height: 30px;
+    border: solid gray 1px;
+    
+}
+.menu-order{
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+}
+.order{
+    width: 20%;
+    height: 35px;
+    border: solid gray 1px;
+    line-height: 2;
+    margin-left: 8px;
+    padding-left: 5px;
+}
+.total{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.grey{
+    background-color: lightgrey;
+}
+.submit{
+    border-style: none;
+    background-color: transparent;
+    font-size: 18px;
+    color: #fff;
+}
+/*bistros css begins*/
+.sf-img{
+    background-image: url("http://i.imgur.com/7hVwX2T.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 70vh;
+    margin-top: 20px;  
+}
+.lg-text{
+    font-size: 86px;
+    padding: 0;
+    margin: 0;
+}
+.middle-sf{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 130px;
+    width: 60%;
+}
+.push-up{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'muli';
+    font-weight: bold;
+    
+}
+.bistro-main{
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    
+}
+.sf-layout{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.sm-width{
+   width: 25%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    
+}
+.left-box{
+    width: 90%;
+    margin: auto;
+    height: 150px;
+    border-bottom: solid 2px #bccf3d;
+}
+.font-62{
+    margin: auto;
+    font-size: 48px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 10px;
+    height: 110px;
+}
+.open{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 15px;
+    
+}
+.monday{
+    font-size: 18px;
+    color: grey;
+    text-align: center;
+    text-transform: capitalize;
+}
+.grey-time{
+    font-size: 18px;
+    color: grey;
+}
+.pickups{
+    font-size: 20px;
+    font-weight: 700;
+}
+.order-sf{
+    color: grey;
+    text-decoration: none;
+    
+}
+.order-sf:hover{
+    color: black;
+}
+.no-border{
+    border-bottom: none;
+}
+.map-sm{
+  padding: 0;
+    margin: 0;
+    
+}
+.prices-vary{
+      font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.lg-width{
+    width: 75%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.icons-hover{
+    width: 100%;
+    height: 200px;
+    background-color:#bccf3d;
+    padding: 0;
+    margin: 0;
+}
+.icons{
+    width: calc(100%/5);
+    float: left;
+    height: 100%;
+    text-align: center;
+    padding-top: 50px;
+    background-color:#bccf3d;
+}
+.icons:hover{
+    background-color: #fff;
+    color: black;
+}
+#green-block{
+    font-size: 28px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;    
+}
+#green-block:hover{
+    background-color: #fff;
+    color: black;
+}
+.hover-text{
+    font-size: 20px;
+}
+.line-block{
+    width: 20%;
+    margin-top: 60px;
+    color: #fff;
+    background-color: #fff;
+}
+.foods{
+    width: 100%;
+    margin: 0;
+    padding:0;
+ ;
+    
+}
+.bistro-food{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    margin: auto;
+    padding-top: 5px
+    
+}
+.circles{
+    width: 60%;
+    border-radius: 50%;
+    border: solid 5px #bccf3d;
+    padding: 5px;
+    
+}
+.item{
+    color:#bccf3d; 
+    font-weight: bold;
+    font-size: 18px;
+}
+.content{
+    font-size: 14px;
+    padding: 10px;
+    line-height: 2
+}
+.price-item{
+    color: #bccf3d;
+    font-size: 28px;
+    font-weight: bold;
+    font-family:" muli" sans-serif;
+}
+
+.line-height{
+    line-height: 1.2;
+}
+.float-right{
+    float: right;
+}
+/*label and checkbox*/
+.bars{
+    font-size:28px;
+}
+.main-label{
+    display: none;
+    float: right;
+}
+.menu{
+   padding-left: 5px;
+    padding-right: 10px;
+}
+#drop{
+    display:none;
+}
+.down-four{
+    padding-top: 70px;
+}
+.down-salad{
+    padding-top: 25px;
+}
+/*
+nav{
+    background-color: transparent;
+}
+*/
+
+/*media query fir sf bistro*/
+@media only screen and (max-width:1300px){
+    .career-home{
+        width: 80%;
+        margin: auto;
+    }
+    .line-height2{
+        line-height: 1.2;
+    }
+    
+    .menu{
+        width: 150px;
+    }
+    .font-dusty{
+        width: 15%;
+        
+    }
+    .middle-sf{
+        padding-top: 150px;
+        width: 100%;
+    }
+    .arriba{
+        margin-top: -1px
+    }
+    .arriba2{
+        margin-top: -9px;
+    }
+}
+@media only screen and (max-width:1100px){
+    .main-label{
+        display: block;  
+    }
+    ul{
+        display: none; 
+    }
+    #drop:checked~ul{
+        display: block;
+    }
+    .career-li{
+        width: 100%;
+    }
+    .home{
+       border-top: solid 1.5px;
+    }
+    .font-dusty{
+        width: 30%;
+        height: 50px;
+    }
+    .bars{
+        padding-top: 30px;
+        padding-right: 20px;
+    }
+    
+    .media-font{
+        font-size: 42px;
+    }
+    .line-height3{
+        line-height: 1.3;
+    }
+    .line-height4{
+        line-height: 1.3
+    }
+    .five{
+        margin-top: auto;
+    }
+    .down-price{
+        padding-top: 70px;
+    }
+    .coffee{
+        padding-top: 25px;
+    }
+    .onche{
+       line-height: 1.3; 
+    }
+}
+@media only screen and (max-width:980px){
+    .bistro-main{
+        width: 100%;
+    }
+    .sf--layout{
+        width: 80%;
+    }
+    .sm-width{
+        width: 100%;
+    }
+    #map-sm{
+        display: block;
+        margin: auto;
+        width: 80%;
+       
+    }
+    .lg-width{
+        width: 80%;
+        margin: auto;
+        clear: both;
+        float: none;
+        
+    }
+    
+    .bistro-food{
+        width: 100%;
+        float: none;
+    }
+    .circles{
+        width: 40%;
+    }
+}
+@media only screen and (max-width:700px){
+    .career-li{
+        width: 100%;
+    }
+    
+    .font-dusty{
+    width: 50%;
+    }
+    .career-home{
+        margin-top: 80px;
+    }
+    .bars{
+        padding-top: 25px;
+        padding-right: 10px;
+    }
+    .circles{
+        width: 50%;
+    }
+    .home-footer{
+        height: 100%
+    }
+    .main-footer{
+        height: 250px;
+        padding-top: 15px
+    }
+    .left-side{
+       width: 30%;
+        text-align:left;
+        padding-left: 20px;
+        padding-top: 65px;
+    }
+    .dusty-small{
+        font-size: 28px;
+    }
+    .copyright{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .footer-font{
+        width: 60%;
+        font-size: 13px;
+        padding-top: 120px;
+        
+    }
+    
+}
+@media only screen and (max-width:500px){
+    .bars{
+        padding-top:28px;
+    }
+    .media-font{
+        font-size: 34px;
+        
+    }
+    .font-dusty{
+        width: 80%;
+    }
+    .circle{
+        width: 50%;
+    }
+    .lg-width{
+        width: 100%;
+    }
+    .left-side{
+        width: 100%;
+    }
+    .footer-font{
+        width:100%;
+        padding: 0;
+        padding-top: 25px;
+    }
+}
+@media only screen and (max-width:340px){
+    .circle{
+        width: 100%;
+    }
+}
+/*fresno bistro*/
+.fresno-img{
+    background-image: url("http://i.imgur.com/hb4ypTp.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 70vh;
+}
+.bus-img{
+     background-image: url("http://i.imgur.com/u1nfc12.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 80vh;
+}
+.more-padding{
+   padding-top: 50px;
+}
+.bigger-box{
+    height: 300px;
+}
+.week{
+   color: black;
+    font-weight: bold;
+}
+/*requirement pages*/
+.cash-middle{
+    width: 80%;
+    margin: auto;
+}
+.bottom-cash{
+    float: left;
+    width: 80%;
+    display: block;
+    margin: auto;
+    font-size: 16px;
+    line-height: 2;
+    padding: 10px;
+    
+    
+    
+    
+}
+.bold-cash{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.go-right{
+    width: 23%;
+    float: left;
+    height: 300px;
+    
+}
+.cashier-left{
+    width: 80%;
+    height: 50%;
+    
+}
+.cashier-right{
+    float: left;
+    width: 100%;
+    height: 50%;
+}
+
+/* cook and cashier page*/
+.sec-career{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+.left-text{
+    color: gray;
+    font-size: 16px;
+    padding: 5px;
+    width: 75%;
+    float: left;
+    line-height: 2;
+    
+}
+.right-text{
+    float: left;
+    width: 60%;
+    text-align: center;
+    border-bottom: solid 1px #bccf3d;
+    
+}
+.right-text2{
+    width: 25%;
+    padding: 0;
+    margin: 0;
+    height: 150px;
+    float: right;
+    border-bottom: solid 1px #bccf3d;
+}
+.require{
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+    padding: 5px;
+    
+    
+}
+.require:hover{
+    color: black;
+}
+.skill-li{
+    width: 60%;
+    float: left;
+    
+}
+.green-text{
+    font-size: 42px;
+    color:#bccf3d;
+}
+.skill{
+    font-size: 18px;
+    text-transform: capitalize;
+}

@@ -1,201 +1,249 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width device=width, initial-scale=1"/>
-        <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link rel='stylesheet' id='tp-pacifico-css' href='http://fonts.googleapis.com/css?family=Pacifico%3A400&#038;ver=4.2.2' type='text/css' media='all' />
-        <link rel='stylesheet' id='tp-muli-css' href='http://fonts.googleapis.com/css?family=Muli%3A300&#038;ver=4.2.2' type='text/css' media='all' />
-        <link rel='stylesheet' id='google-roboto-css' href='http://fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C700&#038;ver=4.2.2' type='text/css' media='all' />
-        <link rel='stylesheet' id='google-roboto-slab-css' href='http://fonts.googleapis.com/css?family=Roboto+Slab%3A400%2C300%2C700&#038;ver=4.2.2'type='text/css' media='all' />
-        <link rel='stylesheet' id='google-droid-serif-css' href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400italic&#038;ver=4.2.2' type='text/css' media='all' />
-        <link rel="icon" href="http://i.imgur.com/xZmhU4J.png">
-        <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    </head>
-    <body>
-        
-<header class="burger">
-       
-<label for="main-drop" class="bar-label">
-    <i class="fa fa-bars bars"></i>
-           </label>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="http://i.imgur.com/xZmhU4J.png">
+    <link rel='stylesheet' id='tp-pacifico-css'  href='http://fonts.googleapis.com/css?family=Pacifico%3A400&#038;ver=4.2.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='tp-muli-css'  href='http://fonts.googleapis.com/css?family=Muli%3A300&#038;ver=4.2.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='google-roboto-css'  href='http://fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C700&#038;ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='google-roboto-slab-css'  href='http://fonts.googleapis.com/css?family=Roboto+Slab%3A400%2C300%2C700&#038;ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='google-droid-serif-css'  href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400italic&#038;ver=4.2.2' type='text/css' media="all"/> 
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
     
-<input type="checkbox" id="main-drop">
-    <nav>
-    <ul class="home_nav">
-    <li class="push-down border-top"><a href="index.html" class="buns-li">home</a></li>
-            
-        <li class="menu">menu / locations
-            <label for="downward" class="label-home">
-                <i class="fa fa-caret-down"></i>
-                    </label>
-                       
-<input type="checkbox" id="downward">
-    <ul class="sf-li">
-        <li class="bistro"> 
-        <a href="sfbistro.html" class="locations">SF Bistro </a></li>
-                            <li class="bistro"> 
-                                <a href="fresnobistro.html" class="locations">fresno bistro </a>
-                            </li>
-                            <li class="bistro">
-                                <a href="fresnobox.html" class="locations">fresno bus </a>
-                                </li>
-                        </ul>
-                        </li>
-                    <li class="push-down">
-                         <a href="about us.html" class="buns-li">about us </a></li>
-                    <li> 
-                         <a href="indexspecial.html" class="buns-li white-border">catering
-                          <label for="buns-2"><i class="fa fa-caret-down"></i>
-                          </label></a>
-                          <input type="checkbox" id="buns-2">
-                           <ul class="catering">
-                               <li class="bistro2">
-                                   <a href="indexspecial.html" class="locations"> Catering/ Special Events</a></li>
-                               <li class="bistro2"> 
-                               <a href="fresnobox.html" class="locations"> Fresno Lunch Box Order Form</a></li>
-                               <li class="bistro2">
-                                <a href="sfbox.html" class="locations"> SF Lunch Box Order Form</a></li>
-                           </ul>
-                        </li>
-                    <li class="push-down"> 
-                    <a href="contact.html" class="buns-li">contact us </a></li>
-                    <li class="push-down"> 
-                    <a href="career.html" class="buns-li">careers </a></li>
+    <title>Dusty Buns | Fresh Local Seasonal</title>
+</head>
+<body>
+<main>
+<!--navbar --> 
+      <header class="buns">
+            <nav id="navbar">
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <span class="index_span_position">
+                                home
+                            </span>
+                        </a>
+                    </li>
+                    
+            <!-- dropdown for menu/location links -->
+                    
+                    <li>
+                        <label for="input_menu" id="label_menu">
+                            <span class="index_span_position">
+                                menu/locations <i class="fa fa-sort-desc"></i>
+                            </span>
+                        </label>
+                        <input type="checkbox" id="input_menu">
+                        <div id="menu_dropdown">
+                            <p class="menu_p">
+                                <a href="sfbistro.html">
+                                    <span>SF Bistro</span>
+                                </a>
+                            </p>
+                            <p class="menu_p">
+                               <a href="frebistro.html">
+                                   <span>Fresno Bistro</span>
+                               </a>
+                            </p>
+                            <p class="menu_p">
+                                <a href="fresnobus.html">
+                                    <span>Fresno Bus</span>
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            <span class="index_span_position">
+                                about us
+                            </span>
+                        </a>
+                    </li>
+                    
+            <!-- catering dropdown -->
+                   
+                    <li>
+                      
+                        <label for="input_menu2" id="label_menu2">
+                            <span class="index_span_position">
+                                Catering <i class="fa fa-sort-desc"></i>
+                            </span>
+                        </label>
+                        <input type="checkbox" id="input_menu2">
+                        <div id="catering_dropdown">
+                            <p class="menu_p">
+                                <a href="specialevents.html">
+                                    <span>Catering / Special Events</span>
+                                </a>
+                            </p>
+                            <p class="menu_p">
+                               <a href="caterting.html">
+                                   <span>Fresno Lunch Box Order Form</span>
+                               </a>
+                            </p>
+                            <p class="menu_p">
+                                <a href="sflunchbox.html">
+                                    <span>SF Lunch Box Order Form</span>
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <span class="index_span_position">
+                                contact us
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="careers.html">
+                            <span class="index_span_position">
+                                careers
+                            </span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
-              
-<div class="logo-middle"> 
-          <span class="dusty">Dusty Buns</span> <br>
-           fresh local seasonal</div>
-        </header> 
-        <div class="middle-text"> 
-        <span class="dusty yellow">welcome to dusty buns</span> <br>
-        <img src="http://i.imgur.com/rHKd6ll.png" alt="fork" class="fork-img">
-        <p class="info"> Dusty Buns Bistro & Bus are serving up local organic sandwiches with fresh California flavor! We hand make each BUN and bake them daily. We feature California's harvest in every bite! Walk into the smell of our slow cooked Soup du Jour, refresh with a crisp Market Salad and treat yourself to a seasonal Sweet while you're at it!</p>
+        </header>
+
+<!--  text on background pic -->
+<div class="dusty">
+       <h1>Dusty Buns</h1>
+    
+       <h3>Fresh Local Seasonal</h3>
+</div>
+
+
+
+<!--  welcome text/img -->
+   <div class="welcome">
+       <h2>
+           Welcome to Dusty Buns
+        </h2>
+       
+       <span class="leaf">
+           <img src="http://i.imgur.com/48yWWbl.png" alt="fork &amps; knife">
+        </span>
+       <p id="info">
+           Dusty Buns Bistro &amp; Bus are serving up local organic sandwiches with fresh California flavor! We hand make each BUN and bake them daily. We feature California's harvest in every bite! Walk into the smell of our slow cooked Soup du Jour, refresh with a crisp Market Salad and treat yourself to a seasonal Sweet while you're at it!
+       </p>
+   </div>
+<!--   boxes -->
+     <section class="wood">
+     <div id="boxes">
+<!--   section 1 -->
+     <div class="left_box">
+         <div class="man_1">
+         <img src="http://i.imgur.com/ipjSOtN.jpg" width="336" height="500px" alt="Salad">
+         </div>
+         <div class="address">  
+           <i class="fa fa-cutlery icons"></i> 
+        <p class="san">SAN FRANCISCO BISTRO </p> <hr>
+        <p class="tel">(415)895-BUNS </p>
+        <p class="san">11 Division St.San Francisco, CA 94103 </p><p class="san">Mon-Sat: 11AM-9PM</p>
         </div>
+     </div>
+<!-- section 2     -->
+       <div class="right_box">
+         <div class="box_3">      
+            <i class="fa fa-cutlery icons"></i>            
+            <p class="san">FRESNO BISTRO</p> <hr>
+            <p class="tel">(559)486-BUNS </p>
+            <p class="san">608 E Weldon Ave.Fresno, CA 93704</p>
+            <p class="san">Mon-Sat: 11AM-7PM</p> </div>
+         <div class="box_4">           
+         <img class="man_hat" src="http://i.imgur.com/8CxmDtV.png" width="300px" height="250" alt=""></div>
+     </div>
+     
+<!--section 3-->
+       <div class="right_2">
+         <div class="box_5">   
+             <img class="taco" src="http://i.imgur.com/ADuS66g.png" width="335" height="250" alt="taco truck"></div>
+         <div class="box_6">
+         <i class="fa fa-truck icons"></i>
+       <p class="san">SAN FRANCISCO BUS</p> <hr>
+        <p class="san">Information coming soon!</p></div>
+     </div>
+     
+<!--  section 4    -->
+       <div class="left_2">
+         <div class="box_7">
+         <i class="fa fa-truck icons"></i>
+       <p class="san"> FRESNO BUS</p> <hr>
+        <p class="san"> Fresno Bus Schedule</p></div>
+         <div class="box_8">    
+         <img class="pink" src="http://i.imgur.com/WTu9DFE.png" width="335" height="250" alt="taco truck"> </div>
+         </div>
+     
+<!--  section 5    -->
+       <div class="right_3">
+         <div class="box_9">  
+             <img id="group"src="http://i.imgur.com/VBCzo1C.png" height="250" width="325"  alt="all"></div>
+         <div class="box_10">    
+              <i class="fa fa-glass icons"></i>            
+            <p class="san">HAPPY HOUR </p> <hr>
+            <p class="san">Mon-Fri: 3-5PM @ the <u class="tel">Fresno Bistro</u></p></div>
+     </div>
+<!--     section 6-->
+     <div class="last_box">
+         <div class="jeep">     
+       <i class="fa fa-bell icons"> </i> <hr id="bell_line">
+        <p class="san">LUNCH BOX PICK UPS</p>
+        <p class="san">SANDO <br>+ <br>SIDE</p>
+        <p class="san">15 person minimum. $12 per person. Click here for the <u class="tel">Fresno </u> or <u class="tel">SF</u> order form.</p></div>
+         <div class="box_11">       
+           <img src="http://i.imgur.com/kQUHswn.png" width="300px" height="500px" alt="jeep">
+           </div>
+     </div>
+         </div>
+  </section>
+   
+   
 
-         <main>
-  <div class="wood-img">
-             <section class="bistro-location">
-              
-                 <div class="top-left">
-                    <div class="lg-img"> 
-                         <img src="http://i.imgur.com/BFty0uf.jpg" alt="left top" class="salad">
-                     </div>
-                    <div class="green"> 
-                             <a href="sfbistro.html" class="font-awesome"> 
-                             <i class="fa fa-cutlery"></i> <br><span class="text-location">san francisco bistro
-                             </span>
-                             </a>
-                     <hr> 
-                             <a href="tel+14158952867" class="tele">(415)895-BUNS</a> 
-                             <br> <span class="text-location"> 11 Division St. San Francisco, CA 94103 
-                             <br> Mon-Sat:11AM-9PM
-                             </span>
-                     </div>
-                 </div>
-                 <div class="top-right">
-                 
-                     <div class="sm-info orange">
-                         <a href="fresnobistro.html" class="font-awesome"><i class="fa fa-cutlery"></i><br> <span class="text-location"> FRESNO BISTRO</span></a> <hr> <a href="tel+15594862867" class="tele"> (559)486-BUNS</a> <br><span class="text-location">608 E Weldon Ave. Fresno, CA <br> 93704 <br>Mon-Sat:11AM-7PM</span>
-                     </div>
-                     <div class="sm-info">
-                         <img src="http://i.imgur.com/n3FmEGZ.jpg" class="pics-home" alt="guy">
-                     </div>
-
-                     <div class="sm-info">
-                         <img src="http://i.imgur.com/OFTLhgb.jpg" class="pics-home" alt="truck">
-                     </div>
-                     <div class="sm-info orange">
-                         <i class="fa fa-truck font-awesome"></i> <br> <span class="text-location">SAN FRANCISCO BUS</span><hr> <span class="text-location"> Information coming soon!</span>
-                     </div>
-                </div>
-
-                 
-</section>
-
-           
-<section class="bottom-half">
-                <div class="bottom-left">
-                 <div class="bm-info orange"> 
-                         <a href="fresnobus.html" class="font-awesome"> 
-                         <i class="fa fa-truck"></i> <br>Fresno Bus</a>
-                         <hr> 
-                         <a href="fresnobus.html" class="order-form grey-bistro">Fresno Bus Schedule</a>
-                 </div>
-                 <div class="bm-info">
-                         <img src="http://i.imgur.com/Yk4vVtL.jpg" alt="pictruck" class="pics-home">
-                 </div>
-              
-                <div class="bm-info">
-                        <img src="http://i.imgur.com/o2gHLyT.jpg" alt="pics" class="pics-home">
-                </div>
-                <div class="bm-info orange">
-                        <i class="fa fa-glass font-awesome"></i> <br> <span class="text-location">HAPPY HOUR</span> 
-                        <hr>
-                        <span class="text-location">Mon-FRI:3-5PM @ the</span> <span class="grey-bistro">Fresno <br> Bistro</span>
-                     </div>
-                 </div>
-                 <div class="bottom-right">
-                     <div class="lg-img"> <img src="http://i.imgur.com/80i6vsL.jpg" alt="sky" class="salad"></div>
-                     <div class="green"> 
-                         <a href="#" class="font-awesome">
-                         <i class="fa fa-bell"></i><br>LUNCH BOX PICK UPS</a>
-                         <hr>
-                         <span class="text-location sando"><span class="large-font">SANDO <br> + <br>SIDE</span> <br>15 person minimum. $12 per <br> person. Click here for the <a href="fresnobox.html" class="order-form">FRESNO</a> <br>or <a href="sfbox.html" class="order-form">SF</a> order form.</span>
-                         </div>
-
-                 </div>
-    </div>
-             </section>
-
-         </main>
-         <section class="contact-info">
-             <div class="section-sm"> 
-             <span class="yellow-media">contact</span> 
-             <hr  class="grey-line">
+    
+<!-- social media nad conatct info home page   -->
+     <section class="contact">
+             <div class="sec"> 
+             <span class="yellow">contact</span> 
+             <hr  class="grey">
              <br>
-             <a href="mailto:chefs@dustybuns.com" class="social-media"> 
-             <i class="fa fa-envelope"></i>chefs@dustybuns.com</a>
+             <a href="contact.html" class="social"> 
+             <i class="fa fa-envelope fa_2"></i> chefs@dustybuns.com</a>
              </div>
-             <div class="section-sm">
-             <span class="yellow-media">follow us</span>
-             <hr  class="grey-line">
+             <div class="sec">
+             <span class="yellow">follow us</span>
+             <hr  class="grey">
               <br>
-             <a href="https://www.facebook.com/DustyBunsBistro" class="social-media">
-             <i class="fa fa-facebook"></i>Facebook</a> 
-             <br>
-             <a href="https://twitter.com/dustybunsbistro" class="social-media">
-             <i class="fa fa-twitter"></i>Twitter</a> 
-             <br>
-             <a href="https://www.instagram.com/dustybunsbistro/" class="social-media">
-             <i class="fa fa-instagram"></i>Instagram</a>
+             <a href="https://www.facebook.com/DustyBunsBistro" class="social">
+             <i class="fa fa-facebook fa_2"></i> Facebook</a> 
+             <br><br>
+             <a href="https://twitter.com/dustybunsbistro" class="social">
+             <i class="fa fa-twitter fa_2"></i> Twitter</a> 
+             <br><br>
+             <a href="https://www.instagram.com/dustybunsbistro/" class="social">
+             <i class="fa fa-instagram fa_2"></i> Instagram</a>
              </div>
-             <div class="section-sm">
-             <span class="yellow-media"> company</span>
-             <hr class="grey-line"> 
+             <div class="sec">
+             <span class="yellow"> company</span>
+             <hr class="grey"> 
              <br>
-             <a href="indexcareer.html" class="social-media">
-             <i class="fa fa-users"></i>Careers</a>
+             <a href="careers.html" class="social">
+             <i class="fa fa-users fa_2"></i> Careers</a>
              </div>
-         </section>
-         <footer class="home-footer">
-             <div class="main-footer">
-                <div class="left-side"> 
-                     <p class="dusty-small"> <a href="index.html" class="dusty-small text-decor">dusty buns</a></p>
-                     <p class="copyright" >2015. All rights reserved.</p>   
-                 </div>
-                 <div class="footer-font">"No Freezers, No Fryers, Everything Made From Scratch"
-                 </div>
+</section>
+    </main>
+<!--   footer home page -->
+         <footer class="lettuce">
+             <div class="last">
+                 <span class="reserved"> dusty buns</span>
+                 <span class="copyright" >2015. All rights reserved.</span>
+                 <div class="no">"No Freezers, NO Fryers, Everything Made From Scratch"</div>
              </div>
          </footer>
-    </body>
-</html>
    
 
-   
-   
-   
- 
+    
+</body>
+</html>
